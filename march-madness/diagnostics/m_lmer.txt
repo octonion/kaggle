@@ -2,275 +2,275 @@
 [1] TRUE
 [1] 85084     8
 iteration: 1
-	f(x) = -3885.772555
+	f(x) = 791955.653130
 iteration: 2
-	f(x) = 38905.382781
+	f(x) = 836255.804134
 iteration: 3
-	f(x) = -1111.138533
+	f(x) = 795043.729873
 iteration: 4
-	f(x) = -1122.599450
+	f(x) = 795042.788988
 iteration: 5
-	f(x) = -76127.228458
+	f(x) = 692023.704293
 iteration: 6
-	f(x) = -7812.536216
+	f(x) = 785392.138048
 iteration: 7
-	f(x) = -7695.424277
+	f(x) = 785406.145013
 iteration: 8
-	f(x) = -80442.396582
+	f(x) = 653024.747298
 iteration: 9
-	f(x) = -73029.741831
+	f(x) = 665773.664809
 iteration: 10
-	f(x) = -86126.738255
+	f(x) = 637285.010459
 iteration: 11
-	f(x) = -67645.370163
+	f(x) = 671134.881058
 iteration: 12
-	f(x) = -90651.115634
+	f(x) = 632748.798796
 iteration: 13
-	f(x) = -76776.581630
+	f(x) = 645994.742886
 iteration: 14
-	f(x) = -85974.106185
+	f(x) = 636287.353773
 iteration: 15
-	f(x) = -87594.793396
+	f(x) = 640771.294402
 iteration: 16
-	f(x) = -88804.299456
+	f(x) = 630070.814106
 iteration: 17
-	f(x) = -90917.072927
+	f(x) = 631556.180643
 iteration: 18
-	f(x) = -91055.971105
+	f(x) = 630130.633395
 iteration: 19
-	f(x) = -91155.244579
+	f(x) = 630514.715834
 iteration: 20
-	f(x) = -91227.516619
+	f(x) = 630300.627267
 iteration: 21
-	f(x) = -91304.748635
+	f(x) = 629995.387719
 iteration: 22
-	f(x) = -91303.045945
+	f(x) = 630007.811708
 iteration: 23
-	f(x) = -91321.515709
+	f(x) = 630090.198960
 iteration: 24
-	f(x) = -91276.383214
+	f(x) = 629915.489237
 iteration: 25
-	f(x) = -91371.724938
+	f(x) = 629805.257468
 iteration: 26
-	f(x) = -91435.148730
+	f(x) = 629768.503446
 iteration: 27
-	f(x) = -91553.523842
+	f(x) = 629805.329083
 iteration: 28
-	f(x) = -91741.680197
+	f(x) = 629808.291231
 iteration: 29
-	f(x) = -91734.745043
+	f(x) = 629737.237993
 iteration: 30
-	f(x) = -91703.336334
+	f(x) = 629732.143843
 iteration: 31
-	f(x) = -91667.466649
+	f(x) = 629727.056816
 iteration: 32
-	f(x) = -91811.782905
+	f(x) = 629727.696733
 iteration: 33
-	f(x) = -91862.854934
+	f(x) = 629724.161956
 iteration: 34
-	f(x) = -91860.139262
+	f(x) = 629718.652314
 iteration: 35
-	f(x) = -91845.231959
+	f(x) = 629716.322263
 iteration: 36
-	f(x) = -91836.054095
+	f(x) = 629715.880377
 iteration: 37
-	f(x) = -91864.856315
+	f(x) = 629715.128727
 iteration: 38
-	f(x) = -91865.067172
+	f(x) = 629714.358155
 iteration: 39
-	f(x) = -91864.649867
+	f(x) = 629714.549256
 iteration: 40
-	f(x) = -91865.269642
+	f(x) = 629715.563695
 iteration: 41
-	f(x) = -91865.349547
+	f(x) = 629714.949615
 iteration: 42
-	f(x) = -91865.249486
+	f(x) = 629714.329445
 iteration: 43
-	f(x) = -91865.148333
+	f(x) = 629714.301899
 iteration: 44
-	f(x) = -91865.361995
+	f(x) = 629714.321605
 iteration: 45
-	f(x) = -91865.289793
+	f(x) = 629714.309843
 iteration: 46
-	f(x) = -91865.366177
+	f(x) = 629714.305064
 iteration: 47
-	f(x) = -91865.365527
-iteration: 48
-	f(x) = -91865.365055
-iteration: 49
-	f(x) = -91865.363410
-iteration: 50
-	f(x) = -91865.366257
-Linear mixed model fit by REML ['lmerMod']
-Formula: log_ps ~ season + field + d_conf + o_conf + game_length + (1 |  
-    offense) + (1 | defense) + (1 | game_id)
+	f(x) = 629714.299449
+Generalized linear mixed model fit by maximum likelihood (Adaptive
+  Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
+ Family: poisson  ( log )
+Formula: ps ~ season + field + d_conf + o_conf + game_length + (1 | offense) +  
+    (1 | defense) + (1 | game_id)
    Data: g
-REML criterion at convergence: -91865.37
+      AIC       BIC    logLik  deviance  df.resid 
+ 629878.3  630645.1 -314857.1  629714.3     85002 
 Random effects:
- Groups   Name        Std.Dev.
- game_id  (Intercept) 0.07898 
- defense  (Intercept) 0.06182 
- offense  (Intercept) 0.06566 
- Residual             0.10995 
+ Groups  Name        Std.Dev.
+ game_id (Intercept) 0.06867 
+ defense (Intercept) 0.06002 
+ offense (Intercept) 0.06384 
 Number of obs: 85084, groups:  game_id, 42542; defense, 2827; offense, 2827
 Fixed Effects:
       (Intercept)         season2017         season2018         season2019  
-        4.2666160          0.0048015          0.0093561          0.0020133  
+         4.275165           0.004738           0.009406           0.002424  
        season2020         season2021         season2022         season2023  
-       -0.0286900         -0.0204733         -0.0308483         -0.0198914  
+        -0.028376          -0.019976          -0.030653          -0.019823  
 fielddefense_home  fieldoffense_home        d_confa_ten          d_confaac  
-       -0.0095038          0.0341974         -0.0752923         -0.1080404  
+        -0.009418           0.033767          -0.074105          -0.106608  
         d_confacc          d_confaec     d_confbig_east      d_confbig_sky  
-       -0.1249306         -0.0190258         -0.1072186          0.0001095  
+        -0.122805          -0.020348          -0.107270          -0.001896  
   d_confbig_south      d_confbig_ten   d_confbig_twelve     d_confbig_west  
-       -0.0097137         -0.1436044         -0.1536752         -0.0395851  
+        -0.011126          -0.141364          -0.150998          -0.039498  
         d_confcaa         d_confcusa      d_confhorizon          d_confind  
-       -0.0260177         -0.0435524         -0.0011934          0.0357351  
+        -0.026273          -0.043352          -0.001143           0.035610  
         d_confivy         d_confmaac          d_confmac         d_confmeac  
-       -0.0358418         -0.0246409         -0.0243030          0.0461263  
+        -0.035636          -0.024928          -0.024624           0.045238  
         d_confmvc          d_confmwc          d_confnec          d_confovc  
-       -0.0851907         -0.0714473          0.0174199         -0.0005376  
+        -0.084215          -0.071319           0.016524          -0.001396  
  d_confpac_twelve      d_confpatriot          d_confsec     d_confsouthern  
-       -0.1054058         -0.0133182         -0.1162934         -0.0210125  
+        -0.104494          -0.013774          -0.113930          -0.021112  
   d_confsouthland       d_confsummit     d_confsun_belt         d_confswac  
-        0.0298995          0.0032777         -0.0375599          0.0237372  
+         0.028380           0.002392          -0.038428           0.023394  
         d_confwac          d_confwcc        o_confa_ten          o_confaac  
-       -0.0274209         -0.0702709          0.0367885          0.0526956  
+        -0.027376          -0.069369           0.035911           0.051808  
         o_confacc          o_confaec     o_confbig_east      o_confbig_sky  
-        0.1000809         -0.0295783          0.1152296          0.0054507  
+         0.098225          -0.027878           0.114391           0.007213  
   o_confbig_south      o_confbig_ten   o_confbig_twelve     o_confbig_west  
-       -0.0264758          0.1027697          0.1182068         -0.0098208  
+        -0.025027           0.100887           0.115833          -0.009683  
         o_confcaa         o_confcusa      o_confhorizon          o_confind  
-        0.0144144          0.0191378          0.0100940         -0.1080542  
+         0.014110           0.019447           0.009845          -0.106958  
         o_confivy         o_confmaac          o_confmac         o_confmeac  
-        0.0179812         -0.0135750          0.0381563         -0.0590673  
+         0.017639          -0.013249           0.038455          -0.057712  
         o_confmvc          o_confmwc          o_confnec          o_confovc  
-        0.0104380          0.0514401         -0.0403503          0.0015408  
+         0.010627           0.051670          -0.039232           0.001985  
  o_confpac_twelve      o_confpatriot          o_confsec     o_confsouthern  
-        0.0894257         -0.0207325          0.1070072          0.0301775  
+         0.088633          -0.020274           0.105126           0.030242  
   o_confsouthland       o_confsummit     o_confsun_belt         o_confswac  
-       -0.0130072          0.0307288          0.0116217         -0.0807455  
+        -0.012017           0.031214           0.012106          -0.079914  
         o_confwac          o_confwcc       game_length1       game_length2  
-        0.0006197          0.0574672          0.1124393          0.2128806  
+         0.001439           0.057354           0.108051           0.207970  
      game_length3       game_length4       game_length5  
-        0.3198874          0.3854605          0.1288751  
-Linear mixed model fit by REML ['lmerMod']
-Formula: log_ps ~ season + field + d_conf + o_conf + game_length + (1 |  
-    offense) + (1 | defense) + (1 | game_id)
+         0.315535           0.381864           0.124582  
+Generalized linear mixed model fit by maximum likelihood (Adaptive
+  Gauss-Hermite Quadrature, nAGQ = 0) [glmerMod]
+ Family: poisson  ( log )
+Formula: ps ~ season + field + d_conf + o_conf + game_length + (1 | offense) +  
+    (1 | defense) + (1 | game_id)
    Data: g
-Control: lmerControl(calc.derivs = FALSE)
+Control: glmerControl(optimizer = "nloptwrap")
 
-REML criterion at convergence: -91865.4
+      AIC       BIC    logLik  deviance  df.resid 
+ 629878.3  630645.1 -314857.1  629714.3     85002 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--6.1668 -0.5197  0.0437  0.5692  3.2563 
+-4.4251 -0.5522 -0.0058  0.5324  3.5833 
 
 Random effects:
- Groups   Name        Variance Std.Dev.
- game_id  (Intercept) 0.006238 0.07898 
- defense  (Intercept) 0.003822 0.06182 
- offense  (Intercept) 0.004311 0.06566 
- Residual             0.012089 0.10995 
+ Groups  Name        Variance Std.Dev.
+ game_id (Intercept) 0.004715 0.06867 
+ defense (Intercept) 0.003602 0.06002 
+ offense (Intercept) 0.004075 0.06384 
 Number of obs: 85084, groups:  game_id, 42542; defense, 2827; offense, 2827
 
 Fixed effects:
-                    Estimate Std. Error t value
-(Intercept)        4.2666160  0.0120876 352.976
-season2017         0.0048015  0.0071297   0.673
-season2018         0.0093561  0.0071298   1.312
-season2019         0.0020133  0.0071202   0.283
-season2020        -0.0286900  0.0071265  -4.026
-season2021        -0.0204733  0.0072313  -2.831
-season2022        -0.0308483  0.0071068  -4.341
-season2023        -0.0198914  0.0070922  -2.805
-fielddefense_home -0.0095038  0.0017918  -5.304
-fieldoffense_home  0.0341974  0.0017917  19.086
-d_confa_ten       -0.0752923  0.0100813  -7.469
-d_confaac         -0.1080404  0.0105458 -10.245
-d_confacc         -0.1249306  0.0099347 -12.575
-d_confaec         -0.0190258  0.0111633  -1.704
-d_confbig_east    -0.1072186  0.0107844  -9.942
-d_confbig_sky      0.0001095  0.0107479   0.010
-d_confbig_south   -0.0097137  0.0107485  -0.904
-d_confbig_ten     -0.1436044  0.0100880 -14.235
-d_confbig_twelve  -0.1536752  0.0108348 -14.183
-d_confbig_west    -0.0395851  0.0111062  -3.564
-d_confcaa         -0.0260177  0.0108216  -2.404
-d_confcusa        -0.0435524  0.0101587  -4.287
-d_confhorizon     -0.0011934  0.0108267  -0.110
-d_confind          0.0357351  0.0483706   0.739
-d_confivy         -0.0358418  0.0119863  -2.990
-d_confmaac        -0.0246409  0.0107586  -2.290
-d_confmac         -0.0243030  0.0104831  -2.318
-d_confmeac         0.0461263  0.0106731   4.322
-d_confmvc         -0.0851907  0.0108538  -7.849
-d_confmwc         -0.0714473  0.0107097  -6.671
-d_confnec          0.0174199  0.0110322   1.579
-d_confovc         -0.0005376  0.0105463  -0.051
-d_confpac_twelve  -0.1054058  0.0104556 -10.081
-d_confpatriot     -0.0133182  0.0110570  -1.205
-d_confsec         -0.1162934  0.0100468 -11.575
-d_confsouthern    -0.0210125  0.0109106  -1.926
-d_confsouthland    0.0298995  0.0105437   2.836
-d_confsummit       0.0032777  0.0111801   0.293
-d_confsun_belt    -0.0375599  0.0104461  -3.596
-d_confswac         0.0237372  0.0107992   2.198
-d_confwac         -0.0274209  0.0110472  -2.482
-d_confwcc         -0.0702709  0.0109156  -6.438
-o_confa_ten        0.0367885  0.0105981   3.471
-o_confaac          0.0526956  0.0110883   4.752
-o_confacc          0.1000809  0.0104466   9.580
-o_confaec         -0.0295783  0.0117266  -2.522
-o_confbig_east     0.1152296  0.0113380  10.163
-o_confbig_sky      0.0054507  0.0112835   0.483
-o_confbig_south   -0.0264758  0.0112948  -2.344
-o_confbig_ten      0.1027697  0.0106061   9.690
-o_confbig_twelve   0.1182068  0.0113957  10.373
-o_confbig_west    -0.0098208  0.0116610  -0.842
-o_confcaa          0.0144144  0.0113735   1.267
-o_confcusa         0.0191378  0.0106793   1.792
-o_confhorizon      0.0100940  0.0113722   0.888
-o_confind         -0.1080542  0.0509053  -2.123
-o_confivy          0.0179812  0.0126007   1.427
-o_confmaac        -0.0135750  0.0112992  -1.201
-o_confmac          0.0381563  0.0110159   3.464
-o_confmeac        -0.0590673  0.0112214  -5.264
-o_confmvc          0.0104380  0.0114070   0.915
-o_confmwc          0.0514401  0.0112522   4.572
-o_confnec         -0.0403503  0.0115873  -3.482
-o_confovc          0.0015408  0.0110860   0.139
-o_confpac_twelve   0.0894257  0.0109895   8.137
-o_confpatriot     -0.0207325  0.0116087  -1.786
-o_confsec          0.1070072  0.0105669  10.127
-o_confsouthern     0.0301775  0.0114678   2.631
-o_confsouthland   -0.0130072  0.0110740  -1.175
-o_confsummit       0.0307288  0.0117493   2.615
-o_confsun_belt     0.0116217  0.0109780   1.059
-o_confswac        -0.0807455  0.0113490  -7.115
-o_confwac          0.0006197  0.0116080   0.053
-o_confwcc          0.0574672  0.0114727   5.009
-game_length1       0.1124393  0.0026941  41.736
-game_length2       0.2128806  0.0067156  31.699
-game_length3       0.3198874  0.0147423  21.699
-game_length4       0.3854605  0.0276367  13.947
-game_length5       0.1288751  0.1138909   1.132
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        4.275165   0.011750 363.853  < 2e-16 ***
+season2017         0.004738   0.006930   0.684 0.494103    
+season2018         0.009406   0.006929   1.357 0.174644    
+season2019         0.002424   0.006921   0.350 0.726207    
+season2020        -0.028376   0.006930  -4.095 4.22e-05 ***
+season2021        -0.019976   0.007032  -2.841 0.004501 ** 
+season2022        -0.030653   0.006911  -4.436 9.18e-06 ***
+season2023        -0.019823   0.006895  -2.875 0.004043 ** 
+fielddefense_home -0.009418   0.001769  -5.323 1.02e-07 ***
+fieldoffense_home  0.033767   0.001763  19.156  < 2e-16 ***
+d_confa_ten       -0.074105   0.009919  -7.471 7.97e-14 ***
+d_confaac         -0.106608   0.010385 -10.266  < 2e-16 ***
+d_confacc         -0.122805   0.009774 -12.564  < 2e-16 ***
+d_confaec         -0.020348   0.010993  -1.851 0.064182 .  
+d_confbig_east    -0.107270   0.010612 -10.108  < 2e-16 ***
+d_confbig_sky     -0.001896   0.010584  -0.179 0.857827    
+d_confbig_south   -0.011126   0.010574  -1.052 0.292702    
+d_confbig_ten     -0.141364   0.009932 -14.233  < 2e-16 ***
+d_confbig_twelve  -0.150998   0.010665 -14.158  < 2e-16 ***
+d_confbig_west    -0.039498   0.010949  -3.607 0.000309 ***
+d_confcaa         -0.026273   0.010644  -2.468 0.013575 *  
+d_confcusa        -0.043352   0.009991  -4.339 1.43e-05 ***
+d_confhorizon     -0.001143   0.010649  -0.107 0.914526    
+d_confind          0.035610   0.047191   0.755 0.450491    
+d_confivy         -0.035636   0.011784  -3.024 0.002493 ** 
+d_confmaac        -0.024928   0.010597  -2.352 0.018654 *  
+d_confmac         -0.024624   0.010307  -2.389 0.016888 *  
+d_confmeac         0.045238   0.010473   4.320 1.56e-05 ***
+d_confmvc         -0.084215   0.010695  -7.874 3.43e-15 ***
+d_confmwc         -0.071319   0.010549  -6.761 1.37e-11 ***
+d_confnec          0.016524   0.010856   1.522 0.127983    
+d_confovc         -0.001396   0.010358  -0.135 0.892810    
+d_confpac_twelve  -0.104494   0.010293 -10.152  < 2e-16 ***
+d_confpatriot     -0.013774   0.010889  -1.265 0.205897    
+d_confsec         -0.113930   0.009876 -11.536  < 2e-16 ***
+d_confsouthern    -0.021112   0.010724  -1.969 0.048999 *  
+d_confsouthland    0.028380   0.010367   2.738 0.006189 ** 
+d_confsummit       0.002392   0.010983   0.218 0.827570    
+d_confsun_belt    -0.038428   0.010280  -3.738 0.000185 ***
+d_confswac         0.023394   0.010618   2.203 0.027575 *  
+d_confwac         -0.027376   0.010867  -2.519 0.011766 *  
+d_confwcc         -0.069369   0.010740  -6.459 1.05e-10 ***
+o_confa_ten        0.035911   0.010440   3.440 0.000582 ***
+o_confaac          0.051808   0.010921   4.744 2.10e-06 ***
+o_confacc          0.098225   0.010281   9.554  < 2e-16 ***
+o_confaec         -0.027878   0.011574  -2.409 0.016015 *  
+o_confbig_east     0.114391   0.011155  10.255  < 2e-16 ***
+o_confbig_sky      0.007213   0.011139   0.648 0.517255    
+o_confbig_south   -0.025027   0.011140  -2.247 0.024667 *  
+o_confbig_ten      0.100887   0.010441   9.663  < 2e-16 ***
+o_confbig_twelve   0.115833   0.011209  10.334  < 2e-16 ***
+o_confbig_west    -0.009683   0.011520  -0.841 0.400614    
+o_confcaa          0.014110   0.011208   1.259 0.208081    
+o_confcusa         0.019447   0.010520   1.849 0.064523 .  
+o_confhorizon      0.009845   0.011213   0.878 0.379911    
+o_confind         -0.106958   0.050180  -2.131 0.033049 *  
+o_confivy          0.017639   0.012405   1.422 0.155052    
+o_confmaac        -0.013249   0.011151  -1.188 0.234781    
+o_confmac          0.038455   0.010848   3.545 0.000393 ***
+o_confmeac        -0.057712   0.011061  -5.217 1.81e-07 ***
+o_confmvc          0.010627   0.011251   0.945 0.344909    
+o_confmwc          0.051670   0.011093   4.658 3.20e-06 ***
+o_confnec         -0.039232   0.011439  -3.430 0.000604 ***
+o_confovc          0.001985   0.010916   0.182 0.855737    
+o_confpac_twelve   0.088633   0.010823   8.189 2.63e-16 ***
+o_confpatriot     -0.020274   0.011457  -1.769 0.076813 .  
+o_confsec          0.105126   0.010393  10.115  < 2e-16 ***
+o_confsouthern     0.030242   0.011291   2.678 0.007397 ** 
+o_confsouthland   -0.012017   0.010927  -1.100 0.271445    
+o_confsummit       0.031214   0.011570   2.698 0.006977 ** 
+o_confsun_belt     0.012106   0.010821   1.119 0.263269    
+o_confswac        -0.079914   0.011213  -7.127 1.03e-12 ***
+o_confwac          0.001439   0.011445   0.126 0.899938    
+o_confwcc          0.057354   0.011298   5.077 3.84e-07 ***
+game_length1       0.108051   0.002566  42.104  < 2e-16 ***
+game_length2       0.207970   0.006229  33.385  < 2e-16 ***
+game_length3       0.315535   0.013324  23.682  < 2e-16 ***
+game_length4       0.381864   0.024540  15.561  < 2e-16 ***
+game_length5       0.124582   0.105885   1.177 0.239365    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 Analysis of Variance Table
             npar Sum Sq Mean Sq  F value
-season         7  0.862  0.1231   10.186
-field          2 44.086 22.0432 1823.453
-d_conf        32 17.840  0.5575   46.118
-o_conf        32 16.625  0.5195   42.976
-game_length    5 40.213  8.0425  665.292
+season         7   74.2   10.61   10.607
+field          2 3218.4 1609.21 1609.213
+d_conf        32 1388.8   43.40   43.400
+o_conf        32 1352.1   42.25   42.254
+game_length    5 3588.1  717.63  717.627
 [1] TRUE
-[1] 1.0695e-08
-[1] 1.566089e-14
-[1] 2.644084e-07
+[1] 0.001239553
+[1] 4.194091e-06
+[1] 0.01128485
           0%           5%          10%          15%          20%          25% 
-8.853124e-21 2.296455e-18 2.153463e-17 7.797686e-17 2.147822e-16 4.889053e-16 
+2.300222e-12 3.218813e-09 1.117662e-08 3.662720e-08 8.066449e-08 1.945060e-07 
          30%          35%          40%          45%          50%          55% 
-9.572628e-16 2.190599e-15 4.998335e-15 8.384032e-15 1.566089e-14 2.926956e-14 
+3.986793e-07 7.107507e-07 1.336448e-06 2.359090e-06 4.194091e-06 6.901196e-06 
          60%          65%          70%          75%          80%          85% 
-5.057016e-14 1.095392e-13 1.896827e-13 3.839209e-13 9.185984e-13 2.507964e-12 
+9.744680e-06 2.344836e-05 3.967158e-05 7.097629e-05 1.389547e-04 3.402284e-04 
          90%          95%         100% 
-6.163285e-12 4.501386e-11 7.893019e-06 
+1.024793e-03 3.626141e-03 2.890994e-01 

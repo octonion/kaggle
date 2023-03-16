@@ -3,367 +3,367 @@ CREATE TABLE
 INSERT 0 361
  rk  |       team       |    conf    |  str  |  ofs  |  dfs  |  sos  
 -----+------------------+------------+-------+-------+-------+-------
-   1 | South Carolina   | sec        | 2.201 | 1.469 | 0.668 | 1.153
-   2 | Connecticut      | big_east   | 1.836 | 1.404 | 0.765 | 1.172
-   3 | Stanford         | pac_twelve | 1.824 | 1.382 | 0.758 | 1.165
-   4 | LSU              | sec        | 1.822 | 1.454 | 0.798 | 1.107
-   5 | Indiana          | big_ten    | 1.814 | 1.441 | 0.794 | 1.154
-   6 | Virginia Tech    | acc        | 1.737 | 1.332 | 0.766 | 1.145
-   7 | Iowa             | big_ten    | 1.733 | 1.537 | 0.887 | 1.164
-   8 | Texas            | big_twelve | 1.731 | 1.323 | 0.764 | 1.148
-   9 | Duke             | acc        | 1.720 | 1.166 | 0.678 | 1.161
-  10 | Notre Dame       | acc        | 1.716 | 1.329 | 0.775 | 1.153
-  11 | Utah             | pac_twelve | 1.708 | 1.491 | 0.873 | 1.140
-  12 | Iowa St          | big_twelve | 1.679 | 1.354 | 0.806 | 1.166
-  13 | Maryland         | big_ten    | 1.647 | 1.416 | 0.860 | 1.172
-  14 | Tennessee        | sec        | 1.646 | 1.391 | 0.845 | 1.177
-  15 | Oregon           | pac_twelve | 1.632 | 1.348 | 0.826 | 1.161
-  16 | Ohio St          | big_ten    | 1.630 | 1.408 | 0.864 | 1.150
-  17 | NC State         | acc        | 1.627 | 1.318 | 0.810 | 1.171
-  18 | North Carolina   | acc        | 1.619 | 1.274 | 0.787 | 1.157
-  19 | Villanova        | big_east   | 1.615 | 1.281 | 0.793 | 1.138
-  20 | Florida St       | acc        | 1.610 | 1.429 | 0.887 | 1.139
-  21 | Louisville       | acc        | 1.610 | 1.308 | 0.812 | 1.155
-  22 | UCLA             | pac_twelve | 1.598 | 1.292 | 0.809 | 1.162
-  23 | Michigan         | big_ten    | 1.595 | 1.319 | 0.827 | 1.139
-  24 | Creighton        | big_east   | 1.595 | 1.282 | 0.804 | 1.147
-  25 | Colorado         | pac_twelve | 1.594 | 1.230 | 0.771 | 1.141
-  26 | Mississippi      | sec        | 1.592 | 1.223 | 0.768 | 1.124
-  27 | Baylor           | big_twelve | 1.583 | 1.270 | 0.802 | 1.145
-  28 | USC              | pac_twelve | 1.567 | 1.140 | 0.728 | 1.137
-  29 | Arizona          | pac_twelve | 1.563 | 1.309 | 0.837 | 1.149
-  30 | Alabama          | sec        | 1.555 | 1.260 | 0.810 | 1.129
-  31 | Georgia          | sec        | 1.552 | 1.204 | 0.776 | 1.142
-  32 | Washington St    | pac_twelve | 1.543 | 1.221 | 0.791 | 1.159
-  33 | Mississippi St   | sec        | 1.537 | 1.229 | 0.799 | 1.112
-  34 | Kansas           | big_twelve | 1.526 | 1.279 | 0.838 | 1.136
-  35 | Michigan St      | big_ten    | 1.524 | 1.325 | 0.870 | 1.123
-  36 | Oklahoma         | big_twelve | 1.510 | 1.478 | 0.979 | 1.140
-  37 | Nebraska         | big_ten    | 1.505 | 1.242 | 0.826 | 1.151
-  38 | Arkansas         | sec        | 1.501 | 1.295 | 0.863 | 1.145
-  39 | Illinois         | big_ten    | 1.497 | 1.298 | 0.867 | 1.113
-  40 | MTSU             | cusa       | 1.494 | 1.213 | 0.812 | 1.066
-  41 | Oklahoma St      | big_twelve | 1.493 | 1.328 | 0.889 | 1.143
-  42 | Miami FL         | acc        | 1.485 | 1.254 | 0.844 | 1.140
-  43 | South Florida    | aac        | 1.482 | 1.248 | 0.842 | 1.104
-  44 | Marquette        | big_east   | 1.480 | 1.176 | 0.794 | 1.136
-  45 | Purdue           | big_ten    | 1.469 | 1.230 | 0.837 | 1.147
-  46 | S Dakota St      | summit     | 1.467 | 1.265 | 0.863 | 1.061
-  47 | Virginia         | acc        | 1.464 | 1.254 | 0.856 | 1.133
-  48 | Princeton        | ivy        | 1.448 | 1.113 | 0.769 | 1.071
-  49 | Columbia         | ivy        | 1.440 | 1.291 | 0.896 | 1.056
-  50 | Gonzaga          | wcc        | 1.438 | 1.230 | 0.855 | 1.081
-  51 | FL Gulf Coast    | a_sun      | 1.435 | 1.247 | 0.869 | 1.030
-  52 | Missouri         | sec        | 1.431 | 1.171 | 0.818 | 1.143
-  53 | Oregon St        | pac_twelve | 1.429 | 1.220 | 0.853 | 1.156
-  54 | Clemson          | acc        | 1.427 | 1.188 | 0.833 | 1.137
-  55 | West Virginia    | big_twelve | 1.425 | 1.153 | 0.809 | 1.120
-  56 | Syracuse         | acc        | 1.416 | 1.319 | 0.931 | 1.126
-  57 | DePaul           | big_east   | 1.408 | 1.366 | 0.970 | 1.130
-  58 | Kansas St        | big_twelve | 1.400 | 1.240 | 0.886 | 1.144
-  59 | Washington       | pac_twelve | 1.400 | 1.100 | 0.786 | 1.143
-  60 | Drake            | mvc        | 1.388 | 1.287 | 0.927 | 1.068
-  61 | St John's        | big_east   | 1.387 | 1.159 | 0.835 | 1.112
-  62 | UNLV             | mwc        | 1.379 | 1.260 | 0.914 | 1.050
-  63 | Seton Hall       | big_east   | 1.378 | 1.291 | 0.937 | 1.123
-  64 | Houston          | aac        | 1.375 | 1.101 | 0.800 | 1.102
-  65 | Massachusetts    | a_ten      | 1.365 | 1.251 | 0.917 | 1.055
-  66 | Wake Forest      | acc        | 1.364 | 1.084 | 0.795 | 1.149
-  67 | Georgia Tech     | acc        | 1.361 | 1.112 | 0.817 | 1.151
-  68 | Northern Iowa    | mvc        | 1.361 | 1.239 | 0.911 | 1.078
-  69 | Memphis          | aac        | 1.350 | 1.146 | 0.849 | 1.098
-  70 | Kentucky         | sec        | 1.347 | 1.218 | 0.904 | 1.146
-  71 | Auburn           | sec        | 1.343 | 1.199 | 0.893 | 1.136
-  72 | California       | pac_twelve | 1.343 | 1.222 | 0.910 | 1.145
-  73 | Texas Tech       | big_twelve | 1.339 | 1.195 | 0.893 | 1.118
-  74 | Penn St          | big_ten    | 1.332 | 1.225 | 0.919 | 1.135
-  75 | Rhode Island     | a_ten      | 1.328 | 1.130 | 0.851 | 1.043
-  76 | Cleveland St     | horizon    | 1.328 | 1.176 | 0.885 | 1.014
-  77 | WI Green Bay     | horizon    | 1.328 | 1.084 | 0.817 | 1.026
-  78 | Florida          | sec        | 1.326 | 1.212 | 0.914 | 1.122
-  79 | Bowling Green    | mac        | 1.321 | 1.228 | 0.929 | 1.038
-  80 | Portland         | wcc        | 1.316 | 1.168 | 0.887 | 1.087
-  81 | Boston College   | acc        | 1.316 | 1.176 | 0.893 | 1.134
-  82 | Toledo           | mac        | 1.313 | 1.178 | 0.898 | 1.053
-  83 | SF Austin        | wac        | 1.301 | 1.171 | 0.900 | 1.031
-  84 | SMU              | aac        | 1.298 | 1.074 | 0.827 | 1.088
-  85 | Harvard          | ivy        | 1.295 | 1.175 | 0.908 | 1.074
-  86 | Ball St          | mac        | 1.289 | 1.217 | 0.944 | 1.048
-  87 | East Carolina    | aac        | 1.289 | 1.067 | 0.828 | 1.061
-  88 | Belmont          | mvc        | 1.287 | 1.183 | 0.919 | 1.086
-  89 | Wisconsin        | big_ten    | 1.275 | 1.198 | 0.939 | 1.133
-  90 | Minnesota        | big_ten    | 1.270 | 1.205 | 0.948 | 1.124
-  91 | Tulane           | aac        | 1.269 | 1.116 | 0.879 | 1.074
-  92 | San Diego St     | mwc        | 1.268 | 1.083 | 0.854 | 1.064
-  93 | Vanderbilt       | sec        | 1.263 | 1.193 | 0.944 | 1.129
-  94 | Pittsburgh       | acc        | 1.262 | 1.124 | 0.891 | 1.145
-  95 | Illinois St      | mvc        | 1.261 | 1.139 | 0.904 | 1.061
-  96 | CS Sacramento    | big_sky    | 1.253 | 1.129 | 0.901 | 1.033
-  97 | Arizona St       | pac_twelve | 1.250 | 1.184 | 0.947 | 1.156
-  98 | Colorado St      | mwc        | 1.249 | 1.162 | 0.930 | 1.055
-  99 | Richmond         | a_ten      | 1.242 | 1.115 | 0.898 | 1.048
- 100 | Fordham          | a_ten      | 1.241 | 1.193 | 0.962 | 1.056
- 101 | St Joseph's PA   | a_ten      | 1.238 | 1.095 | 0.885 | 1.053
- 102 | Texas A&M        | sec        | 1.232 | 1.049 | 0.851 | 1.157
- 103 | Kent             | mac        | 1.232 | 1.122 | 0.911 | 1.057
- 104 | BYU              | wcc        | 1.232 | 1.062 | 0.862 | 1.082
- 105 | Northwestern     | big_ten    | 1.229 | 1.127 | 0.917 | 1.142
- 106 | Rice             | cusa       | 1.226 | 1.177 | 0.960 | 1.058
- 107 | Wichita St       | aac        | 1.225 | 1.119 | 0.914 | 1.066
- 108 | Georgetown       | big_east   | 1.220 | 1.049 | 0.860 | 1.123
- 109 | Wyoming          | mwc        | 1.219 | 1.067 | 0.876 | 1.057
- 110 | TCU              | big_twelve | 1.211 | 1.069 | 0.882 | 1.142
- 111 | Butler           | big_east   | 1.209 | 1.077 | 0.890 | 1.117
- 112 | Providence       | big_east   | 1.207 | 1.062 | 0.880 | 1.093
- 113 | New Mexico       | mwc        | 1.206 | 1.209 | 1.003 | 1.051
- 114 | Missouri St      | mvc        | 1.205 | 1.128 | 0.937 | 1.068
- 115 | Tulsa            | aac        | 1.204 | 1.158 | 0.962 | 1.057
- 116 | Jackson St       | swac       | 1.196 | 1.106 | 0.925 | 1.014
- 117 | UTEP             | cusa       | 1.195 | 1.119 | 0.937 | 1.049
- 118 | Penn             | ivy        | 1.192 | 1.062 | 0.891 | 1.056
- 119 | Santa Clara      | wcc        | 1.191 | 1.171 | 0.983 | 1.066
- 120 | Temple           | aac        | 1.191 | 1.131 | 0.949 | 1.100
- 121 | James Madison    | sun_belt   | 1.181 | 1.108 | 0.938 | 1.018
- 122 | WKU              | cusa       | 1.180 | 1.155 | 0.979 | 1.063
- 123 | St Louis         | a_ten      | 1.179 | 1.161 | 0.984 | 1.074
- 124 | Northern Arizona | big_sky    | 1.176 | 1.198 | 1.019 | 1.057
- 125 | Rutgers          | big_ten    | 1.175 | 1.113 | 0.946 | 1.140
- 126 | Montana St       | big_sky    | 1.173 | 1.122 | 0.956 | 1.050
- 127 | San Francisco    | wcc        | 1.172 | 1.121 | 0.957 | 1.069
- 128 | E Washington     | big_sky    | 1.167 | 1.105 | 0.947 | 1.041
- 129 | Liberty          | a_sun      | 1.166 | 1.115 | 0.956 | 1.031
- 130 | Long Beach St    | big_west   | 1.166 | 1.044 | 0.895 | 1.036
- 131 | Murray St        | mvc        | 1.165 | 1.110 | 0.952 | 1.049
- 132 | UC Irvine        | big_west   | 1.164 | 0.999 | 0.858 | 1.019
- 133 | San Diego        | wcc        | 1.164 | 1.047 | 0.900 | 1.075
- 134 | Louisiana Tech   | cusa       | 1.162 | 1.054 | 0.907 | 1.049
- 135 | Pacific          | wcc        | 1.158 | 1.159 | 1.001 | 1.075
- 136 | Drexel           | caa        | 1.155 | 1.058 | 0.916 | 1.006
- 137 | Boston Univ      | patriot    | 1.152 | 1.088 | 0.945 | 0.985
- 138 | UCF              | aac        | 1.146 | 1.017 | 0.887 | 1.069
- 139 | Duquesne         | a_ten      | 1.142 | 1.109 | 0.971 | 1.042
- 140 | UC Santa Barbara | big_west   | 1.138 | 1.087 | 0.955 | 1.031
- 141 | Troy             | sun_belt   | 1.138 | 1.300 | 1.142 | 1.036
- 142 | N Kentucky       | horizon    | 1.134 | 1.075 | 0.947 | 1.032
- 143 | Cal Baptist      | wac        | 1.134 | 1.168 | 1.030 | 1.046
- 144 | Grand Canyon     | wac        | 1.129 | 1.076 | 0.953 | 1.017
- 145 | Southern Utah    | wac        | 1.127 | 1.076 | 0.954 | 1.051
- 146 | F Dickinson      | nec        | 1.124 | 1.014 | 0.902 | 0.961
- 147 | G Washington     | a_ten      | 1.124 | 1.068 | 0.950 | 1.044
- 148 | Davidson         | a_ten      | 1.119 | 1.052 | 0.940 | 1.056
- 149 | UT San Antonio   | cusa       | 1.118 | 1.072 | 0.959 | 1.066
- 150 | La Salle         | a_ten      | 1.118 | 1.045 | 0.935 | 1.039
- 151 | Hawaii           | big_west   | 1.117 | 1.009 | 0.903 | 1.047
- 152 | Montana          | big_sky    | 1.116 | 1.130 | 1.013 | 1.056
- 153 | Youngstown St    | horizon    | 1.116 | 1.040 | 0.932 | 1.015
- 154 | Northeastern     | caa        | 1.110 | 1.064 | 0.958 | 1.024
- 155 | Towson           | caa        | 1.110 | 1.071 | 0.965 | 1.017
- 156 | Quinnipiac       | maac       | 1.109 | 0.973 | 0.877 | 0.990
- 157 | Old Dominion     | sun_belt   | 1.108 | 1.046 | 0.944 | 1.021
- 158 | Pepperdine       | wcc        | 1.107 | 1.072 | 0.968 | 1.060
- 159 | North Dakota     | summit     | 1.105 | 1.154 | 1.044 | 1.019
- 160 | Vermont          | aec        | 1.105 | 0.955 | 0.864 | 0.980
- 161 | N Dakota St      | summit     | 1.103 | 1.116 | 1.012 | 1.030
- 162 | S Illinois       | mvc        | 1.103 | 1.172 | 1.063 | 1.057
- 163 | Chattanooga      | southern   | 1.101 | 0.950 | 0.863 | 1.012
- 164 | George Mason     | a_ten      | 1.101 | 1.005 | 0.913 | 1.050
- 165 | St Mary's CA     | wcc        | 1.100 | 1.055 | 0.959 | 1.073
- 166 | Iona             | maac       | 1.100 | 0.995 | 0.904 | 0.980
- 167 | Cincinnati       | aac        | 1.098 | 1.015 | 0.924 | 1.073
- 168 | Holy Cross       | patriot    | 1.097 | 0.980 | 0.893 | 0.989
- 169 | Akron            | mac        | 1.095 | 1.083 | 0.988 | 1.041
- 170 | Air Force        | mwc        | 1.094 | 1.051 | 0.960 | 1.057
- 171 | UAB              | cusa       | 1.092 | 1.122 | 1.028 | 1.043
- 172 | Boise St         | mwc        | 1.092 | 1.032 | 0.945 | 1.045
- 173 | Abilene Chr      | wac        | 1.091 | 1.087 | 0.997 | 1.020
- 174 | IL Chicago       | mvc        | 1.091 | 0.941 | 0.863 | 1.042
- 175 | N Illinois       | mac        | 1.090 | 1.110 | 1.018 | 1.035
- 176 | New Mexico St    | wac        | 1.090 | 0.985 | 0.904 | 1.039
- 177 | Texas St         | sun_belt   | 1.088 | 1.021 | 0.938 | 1.011
- 178 | Gardner Webb     | big_south  | 1.085 | 1.175 | 1.083 | 0.969
- 179 | UT Arlington     | wac        | 1.083 | 1.150 | 1.062 | 1.051
- 180 | Stony Brook      | caa        | 1.080 | 1.101 | 1.019 | 1.018
- 181 | IUPUI            | horizon    | 1.078 | 1.155 | 1.072 | 1.037
- 182 | Utah Tech        | wac        | 1.077 | 1.149 | 1.067 | 1.016
- 183 | UC Davis         | big_west   | 1.076 | 1.045 | 0.971 | 1.040
- 184 | Lehigh           | patriot    | 1.075 | 1.111 | 1.033 | 1.001
- 185 | Wofford          | southern   | 1.075 | 1.114 | 1.036 | 1.009
- 186 | Marshall         | sun_belt   | 1.075 | 0.989 | 0.921 | 1.027
- 187 | Mercer           | southern   | 1.074 | 1.050 | 0.977 | 1.040
- 188 | Austin Peay      | a_sun      | 1.074 | 0.949 | 0.884 | 1.024
- 189 | North Texas      | cusa       | 1.074 | 1.038 | 0.967 | 1.068
- 190 | SE Louisiana     | southland  | 1.073 | 0.957 | 0.891 | 0.996
- 191 | Norfolk St       | meac       | 1.073 | 0.918 | 0.855 | 0.963
- 192 | Southern Miss    | sun_belt   | 1.072 | 1.005 | 0.937 | 1.018
- 193 | Buffalo          | mac        | 1.072 | 1.040 | 0.970 | 1.030
- 194 | ETSU             | southern   | 1.071 | 0.971 | 0.907 | 0.998
- 195 | Delaware         | caa        | 1.070 | 1.067 | 0.997 | 1.021
- 196 | Idaho            | big_sky    | 1.069 | 1.129 | 1.056 | 1.040
- 197 | Charlotte        | cusa       | 1.068 | 1.025 | 0.960 | 1.073
- 198 | Xavier           | big_east   | 1.067 | 0.968 | 0.907 | 1.109
- 199 | Oral Roberts     | summit     | 1.065 | 1.239 | 1.163 | 1.060
- 200 | Dayton           | a_ten      | 1.063 | 1.071 | 1.008 | 1.068
- 201 | Yale             | ivy        | 1.063 | 1.003 | 0.943 | 1.060
- 202 | Tennessee Tech   | ovc        | 1.062 | 1.074 | 1.011 | 0.990
- 203 | WI Milwaukee     | horizon    | 1.059 | 0.966 | 0.912 | 1.036
- 204 | Lipscomb         | a_sun      | 1.059 | 1.074 | 1.014 | 1.021
- 205 | Ga Southern      | sun_belt   | 1.057 | 1.158 | 1.096 | 0.996
- 206 | SUNY Albany      | aec        | 1.056 | 0.931 | 0.881 | 0.990
- 207 | Jacksonville St  | a_sun      | 1.055 | 0.973 | 0.922 | 1.014
- 208 | Ark Little Rock  | ovc        | 1.054 | 0.836 | 0.793 | 1.009
- 209 | Nevada           | mwc        | 1.053 | 1.055 | 1.002 | 1.058
- 210 | E Kentucky       | a_sun      | 1.051 | 1.165 | 1.108 | 1.003
- 211 | CS Fullerton     | big_west   | 1.050 | 1.004 | 0.957 | 1.038
- 212 | Florida Intl     | cusa       | 1.049 | 1.098 | 1.047 | 1.054
- 213 | E Illinois       | ovc        | 1.047 | 1.032 | 0.985 | 0.979
- 214 | Louisiana        | sun_belt   | 1.046 | 0.907 | 0.867 | 1.040
- 215 | Coastal Car      | sun_belt   | 1.045 | 1.105 | 1.057 | 1.031
- 216 | North Alabama    | a_sun      | 1.044 | 1.032 | 0.989 | 1.025
- 217 | South Dakota     | summit     | 1.044 | 1.053 | 1.009 | 1.038
- 218 | Sam Houston St   | wac        | 1.043 | 1.067 | 1.023 | 1.042
- 219 | FL Atlantic      | cusa       | 1.042 | 1.041 | 0.999 | 1.053
- 220 | Indiana St       | mvc        | 1.041 | 1.032 | 0.991 | 1.036
- 221 | Fresno St        | mwc        | 1.041 | 0.967 | 0.929 | 1.047
- 222 | Idaho St         | big_sky    | 1.040 | 0.934 | 0.898 | 1.045
- 223 | NC A&T           | caa        | 1.040 | 1.039 | 0.999 | 1.016
- 224 | St Thomas MN     | summit     | 1.039 | 0.986 | 0.948 | 1.017
- 225 | VCU              | a_ten      | 1.039 | 0.946 | 0.911 | 1.059
- 226 | TAM C. Christi   | southland  | 1.036 | 0.968 | 0.934 | 0.997
- 227 | Monmouth NJ      | caa        | 1.036 | 1.020 | 0.984 | 1.007
- 228 | Miami OH         | mac        | 1.036 | 1.133 | 1.093 | 1.046
- 229 | E Michigan       | mac        | 1.033 | 0.993 | 0.962 | 1.031
- 230 | Lamar            | southland  | 1.026 | 0.991 | 0.965 | 0.993
- 231 | Maine            | aec        | 1.023 | 0.971 | 0.950 | 1.017
- 232 | UC San Diego     | big_west   | 1.023 | 1.002 | 0.980 | 1.034
- 233 | William & Mary   | caa        | 1.021 | 1.050 | 1.029 | 1.012
- 234 | W Michigan       | mac        | 1.019 | 1.016 | 0.997 | 1.063
- 235 | Kennesaw         | a_sun      | 1.019 | 1.060 | 1.040 | 1.025
- 236 | Brown            | ivy        | 1.019 | 1.032 | 1.013 | 1.034
- 237 | Siena            | maac       | 1.016 | 1.070 | 1.054 | 0.979
- 238 | Portland St      | big_sky    | 1.014 | 0.978 | 0.965 | 1.040
- 239 | N Colorado       | big_sky    | 1.011 | 0.943 | 0.933 | 1.034
- 240 | Colgate          | patriot    | 1.010 | 0.901 | 0.893 | 0.989
- 241 | TN Martin        | ovc        | 1.010 | 1.010 | 1.000 | 1.005
- 242 | Cornell          | ivy        | 1.006 | 0.963 | 0.957 | 1.040
- 243 | Appalachian St   | sun_belt   | 1.006 | 1.043 | 1.037 | 1.035
- 244 | Bucknell         | patriot    | 1.001 | 0.925 | 0.924 | 1.014
- 245 | UTRGV            | wac        | 0.995 | 1.000 | 1.005 | 1.038
- 246 | Jacksonville     | a_sun      | 0.995 | 0.973 | 0.978 | 1.035
- 247 | Georgia St       | sun_belt   | 0.994 | 0.956 | 0.962 | 1.025
- 248 | PFW              | horizon    | 0.993 | 0.994 | 1.001 | 1.029
- 249 | Cal Poly         | big_west   | 0.987 | 0.935 | 0.947 | 1.052
- 250 | Niagara          | maac       | 0.986 | 1.042 | 1.057 | 0.984
- 251 | Loyola-Chicago   | a_ten      | 0.986 | 0.939 | 0.952 | 1.055
- 252 | Fairfield        | maac       | 0.986 | 0.925 | 0.938 | 0.995
- 253 | NE Omaha         | summit     | 0.984 | 1.014 | 1.030 | 1.041
- 254 | Arkansas St      | sun_belt   | 0.983 | 1.058 | 1.076 | 1.015
- 255 | High Point       | big_south  | 0.982 | 1.002 | 1.021 | 0.974
- 256 | Hampton          | caa        | 0.981 | 0.984 | 1.003 | 1.027
- 257 | Stetson          | a_sun      | 0.980 | 0.940 | 0.959 | 1.021
- 258 | Denver           | summit     | 0.978 | 1.012 | 1.034 | 1.026
- 259 | Manhattan        | maac       | 0.977 | 0.937 | 0.960 | 0.983
- 260 | C Michigan       | mac        | 0.974 | 1.038 | 1.065 | 1.049
- 261 | San Jose St      | mwc        | 0.971 | 0.968 | 0.996 | 1.055
- 262 | Elon             | caa        | 0.968 | 0.943 | 0.974 | 1.021
- 263 | Samford          | southern   | 0.965 | 1.012 | 1.048 | 1.022
- 264 | Loy Marymount    | wcc        | 0.965 | 0.951 | 0.986 | 1.081
- 265 | CS Northridge    | big_west   | 0.963 | 0.988 | 1.026 | 1.043
- 266 | Ohio             | mac        | 0.962 | 1.011 | 1.051 | 1.048
- 267 | Evansville       | mvc        | 0.961 | 1.002 | 1.043 | 1.043
- 268 | Southern Univ    | swac       | 0.960 | 0.887 | 0.925 | 1.016
- 269 | Oakland          | horizon    | 0.959 | 1.027 | 1.070 | 1.034
- 270 | Robert Morris    | horizon    | 0.959 | 0.906 | 0.944 | 1.027
- 271 | TX A&M Commerce  | southland  | 0.957 | 1.031 | 1.077 | 1.010
- 272 | SE Missouri St   | ovc        | 0.956 | 0.975 | 1.020 | 1.005
- 273 | Col Charleston   | caa        | 0.952 | 1.004 | 1.055 | 1.011
- 274 | Sacred Heart     | nec        | 0.950 | 0.950 | 1.000 | 0.959
- 275 | CS Bakersfield   | big_west   | 0.950 | 0.874 | 0.921 | 1.045
- 276 | Valparaiso       | mvc        | 0.949 | 0.976 | 1.028 | 1.055
- 277 | Southern Indiana | ovc        | 0.949 | 0.975 | 1.028 | 0.992
- 278 | Howard           | meac       | 0.949 | 0.955 | 1.007 | 0.986
- 279 | Tarleton St      | wac        | 0.947 | 0.953 | 1.006 | 1.032
- 280 | UC Riverside     | big_west   | 0.943 | 0.867 | 0.919 | 1.041
- 281 | UNC Greensboro   | southern   | 0.943 | 0.969 | 1.028 | 0.993
- 282 | Campbell         | big_south  | 0.940 | 0.857 | 0.912 | 0.954
- 283 | Seattle          | wac        | 0.938 | 0.966 | 1.030 | 1.041
- 284 | W Illinois       | summit     | 0.938 | 1.022 | 1.090 | 1.015
- 285 | Wright St        | horizon    | 0.938 | 1.077 | 1.148 | 1.049
- 286 | Bellarmine       | a_sun      | 0.937 | 0.963 | 1.027 | 1.030
- 287 | Marist           | maac       | 0.935 | 0.921 | 0.986 | 0.997
- 288 | Army             | patriot    | 0.932 | 0.968 | 1.039 | 0.997
- 289 | Binghamton       | aec        | 0.930 | 0.951 | 1.023 | 0.975
- 290 | Morgan St        | meac       | 0.925 | 0.905 | 0.978 | 0.977
- 291 | Ark Pine Bluff   | swac       | 0.925 | 0.994 | 1.074 | 0.990
- 292 | UMBC             | aec        | 0.924 | 1.000 | 1.082 | 0.982
- 293 | Hofstra          | caa        | 0.923 | 0.916 | 0.992 | 1.003
- 294 | Missouri KC      | summit     | 0.920 | 0.970 | 1.055 | 1.031
- 295 | Incarnate Word   | southland  | 0.918 | 0.895 | 0.976 | 0.996
- 296 | Bethune-Cookman  | swac       | 0.917 | 0.931 | 1.015 | 0.988
- 297 | Grambling        | swac       | 0.916 | 0.901 | 0.984 | 1.009
- 298 | Prairie View     | swac       | 0.914 | 0.975 | 1.067 | 1.003
- 299 | Radford          | big_south  | 0.913 | 0.941 | 1.030 | 0.961
- 300 | American Univ    | patriot    | 0.911 | 0.947 | 1.040 | 1.018
- 301 | Furman           | southern   | 0.907 | 0.948 | 1.045 | 1.001
- 302 | Weber St         | big_sky    | 0.904 | 0.919 | 1.016 | 1.024
- 303 | Wagner           | nec        | 0.899 | 0.968 | 1.077 | 0.963
- 304 | Mt St Mary's     | maac       | 0.899 | 0.901 | 1.002 | 0.997
- 305 | Alabama St       | swac       | 0.898 | 0.981 | 1.092 | 1.000
- 306 | NJIT             | aec        | 0.896 | 0.945 | 1.054 | 0.970
- 307 | Dartmouth        | ivy        | 0.895 | 0.919 | 1.027 | 1.062
- 308 | Alcorn St        | swac       | 0.891 | 0.948 | 1.064 | 0.987
- 309 | Coppin St        | meac       | 0.888 | 0.866 | 0.975 | 0.982
- 310 | McNeese St       | southland  | 0.884 | 0.987 | 1.116 | 0.998
- 311 | NC Central       | meac       | 0.883 | 1.029 | 1.165 | 0.977
- 312 | Loyola MD        | patriot    | 0.881 | 0.881 | 0.999 | 0.990
- 313 | Bradley          | mvc        | 0.879 | 0.930 | 1.057 | 1.054
- 314 | Alabama A&M      | swac       | 0.879 | 0.871 | 0.990 | 0.977
- 315 | Houston Chr      | southland  | 0.875 | 0.899 | 1.027 | 1.012
- 316 | Tennessee St     | ovc        | 0.875 | 0.979 | 1.119 | 0.998
- 317 | New Orleans      | southland  | 0.874 | 0.940 | 1.075 | 0.977
- 318 | MD E Shore       | meac       | 0.870 | 0.930 | 1.068 | 0.985
- 319 | Rider            | maac       | 0.870 | 0.924 | 1.062 | 0.987
- 320 | UNC Wilmington   | caa        | 0.870 | 0.859 | 0.988 | 1.018
- 321 | SIUE             | ovc        | 0.869 | 1.016 | 1.169 | 1.020
- 322 | Canisius         | maac       | 0.869 | 0.946 | 1.088 | 0.986
- 323 | St Bonaventure   | a_ten      | 0.867 | 0.877 | 1.012 | 1.043
- 324 | Utah Valley      | wac        | 0.865 | 0.862 | 0.996 | 1.035
- 325 | Lafayette        | patriot    | 0.864 | 0.880 | 1.019 | 0.993
- 326 | ULM              | sun_belt   | 0.860 | 0.978 | 1.137 | 1.012
- 327 | MA Lowell        | aec        | 0.859 | 0.870 | 1.012 | 1.013
- 328 | Utah St          | mwc        | 0.855 | 0.969 | 1.133 | 1.050
- 329 | Cent Arkansas    | a_sun      | 0.854 | 0.811 | 0.949 | 1.020
- 330 | Presbyterian     | big_south  | 0.852 | 0.937 | 1.099 | 0.963
- 331 | Florida A&M      | swac       | 0.846 | 0.931 | 1.101 | 1.004
- 332 | Northwestern LA  | southland  | 0.845 | 0.921 | 1.090 | 1.000
- 333 | St Francis NY    | nec        | 0.844 | 0.881 | 1.043 | 0.974
- 334 | Merrimack        | nec        | 0.839 | 0.948 | 1.130 | 0.966
- 335 | Bryant           | aec        | 0.836 | 0.911 | 1.089 | 0.970
- 336 | Detroit          | horizon    | 0.836 | 0.878 | 1.050 | 1.038
- 337 | South Alabama    | sun_belt   | 0.835 | 0.854 | 1.022 | 1.008
- 338 | TX Southern      | swac       | 0.834 | 0.960 | 1.151 | 1.017
- 339 | Morehead St      | ovc        | 0.832 | 0.880 | 1.057 | 0.999
- 340 | Stonehill        | nec        | 0.832 | 0.908 | 1.092 | 0.961
- 341 | North Florida    | a_sun      | 0.828 | 0.902 | 1.089 | 1.030
- 342 | New Hampshire    | aec        | 0.823 | 0.839 | 1.021 | 0.994
- 343 | Queens NC        | a_sun      | 0.814 | 0.917 | 1.125 | 1.002
- 344 | LIU Brooklyn     | nec        | 0.807 | 0.887 | 1.100 | 0.975
- 345 | UNC Asheville    | big_south  | 0.802 | 0.860 | 1.072 | 0.967
- 346 | Longwood         | big_south  | 0.799 | 0.933 | 1.168 | 0.991
- 347 | W Carolina       | southern   | 0.795 | 0.840 | 1.057 | 0.993
- 348 | Central Conn     | nec        | 0.794 | 0.870 | 1.095 | 0.953
- 349 | Lindenwood       | ovc        | 0.776 | 0.874 | 1.127 | 1.006
- 350 | Delaware St      | meac       | 0.768 | 0.757 | 0.985 | 0.993
- 351 | Winthrop         | big_south  | 0.767 | 0.798 | 1.041 | 0.951
- 352 | Navy             | patriot    | 0.763 | 0.849 | 1.112 | 0.997
- 353 | SC Upstate       | big_south  | 0.763 | 0.804 | 1.054 | 0.972
- 354 | Nicholls St      | southland  | 0.761 | 0.886 | 1.164 | 0.979
- 355 | St Francis PA    | nec        | 0.748 | 0.815 | 1.090 | 0.977
- 356 | St Peter's       | maac       | 0.732 | 0.799 | 1.091 | 0.994
- 357 | Charleston So    | big_south  | 0.721 | 0.820 | 1.138 | 0.986
- 358 | MS Valley St     | swac       | 0.717 | 0.862 | 1.202 | 0.996
- 359 | Chicago St       | ind        | 0.711 | 0.906 | 1.274 | 0.999
- 360 | S Carolina St    | meac       | 0.678 | 0.759 | 1.120 | 0.992
- 361 | Hartford         | ind        | 0.574 | 0.687 | 1.196 | 0.965
+   1 | South Carolina   | sec        | 2.138 | 1.457 | 0.682 | 1.147
+   2 | Connecticut      | big_east   | 1.813 | 1.398 | 0.771 | 1.166
+   3 | Stanford         | pac_twelve | 1.807 | 1.378 | 0.763 | 1.160
+   4 | LSU              | sec        | 1.794 | 1.444 | 0.805 | 1.103
+   5 | Indiana          | big_ten    | 1.775 | 1.428 | 0.805 | 1.148
+   6 | Iowa             | big_ten    | 1.707 | 1.526 | 0.894 | 1.158
+   7 | Notre Dame       | acc        | 1.706 | 1.325 | 0.777 | 1.147
+   8 | Texas            | big_twelve | 1.699 | 1.311 | 0.772 | 1.141
+   9 | Duke             | acc        | 1.697 | 1.167 | 0.688 | 1.155
+  10 | Utah             | pac_twelve | 1.694 | 1.489 | 0.879 | 1.136
+  11 | Virginia Tech    | acc        | 1.690 | 1.314 | 0.777 | 1.139
+  12 | Iowa St          | big_twelve | 1.645 | 1.339 | 0.814 | 1.159
+  13 | Maryland         | big_ten    | 1.624 | 1.401 | 0.863 | 1.165
+  14 | Tennessee        | sec        | 1.620 | 1.375 | 0.849 | 1.171
+  15 | Ohio St          | big_ten    | 1.605 | 1.397 | 0.870 | 1.144
+  16 | Oregon           | pac_twelve | 1.604 | 1.344 | 0.838 | 1.157
+  17 | Villanova        | big_east   | 1.599 | 1.272 | 0.796 | 1.133
+  18 | NC State         | acc        | 1.598 | 1.308 | 0.819 | 1.164
+  19 | North Carolina   | acc        | 1.588 | 1.261 | 0.794 | 1.151
+  20 | Florida St       | acc        | 1.585 | 1.422 | 0.897 | 1.133
+  21 | UCLA             | pac_twelve | 1.584 | 1.278 | 0.807 | 1.158
+  22 | Louisville       | acc        | 1.579 | 1.297 | 0.822 | 1.150
+  23 | Colorado         | pac_twelve | 1.576 | 1.225 | 0.777 | 1.138
+  24 | Mississippi      | sec        | 1.567 | 1.208 | 0.771 | 1.119
+  25 | Creighton        | big_east   | 1.566 | 1.271 | 0.812 | 1.143
+  26 | Michigan         | big_ten    | 1.566 | 1.305 | 0.834 | 1.134
+  27 | Arizona          | pac_twelve | 1.556 | 1.303 | 0.838 | 1.145
+  28 | USC              | pac_twelve | 1.550 | 1.135 | 0.732 | 1.133
+  29 | Baylor           | big_twelve | 1.543 | 1.261 | 0.817 | 1.140
+  30 | Washington St    | pac_twelve | 1.532 | 1.214 | 0.793 | 1.155
+  31 | Alabama          | sec        | 1.528 | 1.257 | 0.822 | 1.125
+  32 | Georgia          | sec        | 1.522 | 1.192 | 0.783 | 1.136
+  33 | Mississippi St   | sec        | 1.515 | 1.224 | 0.808 | 1.108
+  34 | Kansas           | big_twelve | 1.511 | 1.270 | 0.840 | 1.131
+  35 | Michigan St      | big_ten    | 1.502 | 1.317 | 0.877 | 1.118
+  36 | Oklahoma         | big_twelve | 1.491 | 1.467 | 0.984 | 1.134
+  37 | Nebraska         | big_ten    | 1.488 | 1.239 | 0.833 | 1.145
+  38 | Oklahoma St      | big_twelve | 1.478 | 1.314 | 0.889 | 1.137
+  39 | Illinois         | big_ten    | 1.475 | 1.287 | 0.873 | 1.108
+  40 | Arkansas         | sec        | 1.474 | 1.285 | 0.872 | 1.140
+  41 | Marquette        | big_east   | 1.471 | 1.174 | 0.798 | 1.132
+  42 | South Florida    | aac        | 1.471 | 1.238 | 0.842 | 1.100
+  43 | Miami FL         | acc        | 1.467 | 1.247 | 0.850 | 1.134
+  44 | MTSU             | cusa       | 1.465 | 1.205 | 0.822 | 1.063
+  45 | S Dakota St      | summit     | 1.460 | 1.264 | 0.866 | 1.058
+  46 | Purdue           | big_ten    | 1.459 | 1.221 | 0.837 | 1.141
+  47 | Virginia         | acc        | 1.434 | 1.242 | 0.866 | 1.128
+  48 | Princeton        | ivy        | 1.431 | 1.105 | 0.772 | 1.068
+  49 | Columbia         | ivy        | 1.430 | 1.289 | 0.901 | 1.054
+  50 | Gonzaga          | wcc        | 1.427 | 1.221 | 0.856 | 1.078
+  51 | Oregon St        | pac_twelve | 1.420 | 1.213 | 0.854 | 1.152
+  52 | FL Gulf Coast    | a_sun      | 1.417 | 1.248 | 0.881 | 1.029
+  53 | Syracuse         | acc        | 1.408 | 1.308 | 0.929 | 1.121
+  54 | Missouri         | sec        | 1.408 | 1.165 | 0.827 | 1.138
+  55 | Clemson          | acc        | 1.401 | 1.184 | 0.845 | 1.132
+  56 | West Virginia    | big_twelve | 1.397 | 1.142 | 0.818 | 1.114
+  57 | DePaul           | big_east   | 1.390 | 1.358 | 0.977 | 1.125
+  58 | Drake            | mvc        | 1.388 | 1.286 | 0.927 | 1.066
+  59 | Washington       | pac_twelve | 1.388 | 1.095 | 0.789 | 1.140
+  60 | St John's        | big_east   | 1.381 | 1.152 | 0.834 | 1.108
+  61 | Kansas St        | big_twelve | 1.381 | 1.235 | 0.895 | 1.138
+  62 | UNLV             | mwc        | 1.361 | 1.254 | 0.921 | 1.048
+  63 | Massachusetts    | a_ten      | 1.356 | 1.243 | 0.916 | 1.053
+  64 | Seton Hall       | big_east   | 1.354 | 1.281 | 0.946 | 1.119
+  65 | Northern Iowa    | mvc        | 1.352 | 1.234 | 0.913 | 1.075
+  66 | Wake Forest      | acc        | 1.346 | 1.074 | 0.798 | 1.142
+  67 | Memphis          | aac        | 1.346 | 1.146 | 0.852 | 1.095
+  68 | Houston          | aac        | 1.344 | 1.095 | 0.815 | 1.099
+  69 | Georgia Tech     | acc        | 1.337 | 1.101 | 0.824 | 1.145
+  70 | California       | pac_twelve | 1.331 | 1.215 | 0.913 | 1.142
+  71 | Auburn           | sec        | 1.330 | 1.197 | 0.900 | 1.131
+  72 | Kentucky         | sec        | 1.329 | 1.207 | 0.908 | 1.140
+  73 | Cleveland St     | horizon    | 1.326 | 1.176 | 0.887 | 1.013
+  74 | Texas Tech       | big_twelve | 1.318 | 1.180 | 0.895 | 1.113
+  75 | WI Green Bay     | horizon    | 1.311 | 1.079 | 0.822 | 1.026
+  76 | Rhode Island     | a_ten      | 1.308 | 1.124 | 0.859 | 1.042
+  77 | Boston College   | acc        | 1.308 | 1.175 | 0.898 | 1.129
+  78 | Florida          | sec        | 1.306 | 1.200 | 0.919 | 1.117
+  79 | Penn St          | big_ten    | 1.306 | 1.215 | 0.930 | 1.130
+  80 | Bowling Green    | mac        | 1.305 | 1.224 | 0.938 | 1.038
+  81 | Toledo           | mac        | 1.305 | 1.173 | 0.899 | 1.052
+  82 | Portland         | wcc        | 1.294 | 1.162 | 0.898 | 1.084
+  83 | SF Austin        | wac        | 1.292 | 1.169 | 0.905 | 1.031
+  84 | SMU              | aac        | 1.291 | 1.073 | 0.831 | 1.085
+  85 | Harvard          | ivy        | 1.287 | 1.171 | 0.910 | 1.072
+  86 | East Carolina    | aac        | 1.285 | 1.064 | 0.828 | 1.059
+  87 | Belmont          | mvc        | 1.283 | 1.178 | 0.918 | 1.083
+  88 | Ball St          | mac        | 1.283 | 1.212 | 0.944 | 1.046
+  89 | Tulane           | aac        | 1.266 | 1.117 | 0.883 | 1.072
+  90 | Vanderbilt       | sec        | 1.261 | 1.193 | 0.946 | 1.124
+  91 | Wisconsin        | big_ten    | 1.260 | 1.188 | 0.943 | 1.127
+  92 | Minnesota        | big_ten    | 1.258 | 1.200 | 0.954 | 1.118
+  93 | Illinois St      | mvc        | 1.253 | 1.133 | 0.905 | 1.059
+  94 | San Diego St     | mwc        | 1.252 | 1.079 | 0.862 | 1.061
+  95 | Pittsburgh       | acc        | 1.247 | 1.120 | 0.898 | 1.140
+  96 | Colorado St      | mwc        | 1.244 | 1.158 | 0.931 | 1.053
+  97 | Texas A&M        | sec        | 1.241 | 1.056 | 0.851 | 1.151
+  98 | CS Sacramento    | big_sky    | 1.240 | 1.121 | 0.904 | 1.032
+  99 | Arizona St       | pac_twelve | 1.238 | 1.172 | 0.947 | 1.152
+ 100 | Fordham          | a_ten      | 1.237 | 1.188 | 0.960 | 1.054
+ 101 | Richmond         | a_ten      | 1.235 | 1.121 | 0.907 | 1.046
+ 102 | St Joseph's PA   | a_ten      | 1.230 | 1.091 | 0.886 | 1.051
+ 103 | Wichita St       | aac        | 1.223 | 1.116 | 0.913 | 1.065
+ 104 | Kent             | mac        | 1.221 | 1.114 | 0.912 | 1.056
+ 105 | Rice             | cusa       | 1.221 | 1.172 | 0.960 | 1.056
+ 106 | Georgetown       | big_east   | 1.219 | 1.053 | 0.864 | 1.119
+ 107 | BYU              | wcc        | 1.219 | 1.056 | 0.866 | 1.079
+ 108 | Northwestern     | big_ten    | 1.211 | 1.116 | 0.922 | 1.137
+ 109 | Wyoming          | mwc        | 1.210 | 1.060 | 0.875 | 1.055
+ 110 | New Mexico       | mwc        | 1.203 | 1.204 | 1.001 | 1.048
+ 111 | Butler           | big_east   | 1.200 | 1.071 | 0.892 | 1.114
+ 112 | Tulsa            | aac        | 1.199 | 1.160 | 0.967 | 1.055
+ 113 | Missouri St      | mvc        | 1.197 | 1.119 | 0.935 | 1.066
+ 114 | TCU              | big_twelve | 1.195 | 1.065 | 0.891 | 1.136
+ 115 | Providence       | big_east   | 1.191 | 1.054 | 0.885 | 1.090
+ 116 | UTEP             | cusa       | 1.188 | 1.111 | 0.935 | 1.046
+ 117 | Temple           | aac        | 1.188 | 1.124 | 0.947 | 1.098
+ 118 | Penn             | ivy        | 1.185 | 1.059 | 0.893 | 1.054
+ 119 | Jackson St       | swac       | 1.181 | 1.098 | 0.930 | 1.011
+ 120 | Santa Clara      | wcc        | 1.178 | 1.162 | 0.987 | 1.064
+ 121 | James Madison    | sun_belt   | 1.174 | 1.100 | 0.937 | 1.017
+ 122 | St Louis         | a_ten      | 1.172 | 1.160 | 0.989 | 1.071
+ 123 | San Francisco    | wcc        | 1.172 | 1.119 | 0.955 | 1.067
+ 124 | Northern Arizona | big_sky    | 1.165 | 1.193 | 1.024 | 1.055
+ 125 | Liberty          | a_sun      | 1.164 | 1.110 | 0.954 | 1.030
+ 126 | WKU              | cusa       | 1.164 | 1.149 | 0.987 | 1.060
+ 127 | UC Irvine        | big_west   | 1.161 | 0.994 | 0.856 | 1.018
+ 128 | Montana St       | big_sky    | 1.160 | 1.117 | 0.963 | 1.048
+ 129 | San Diego        | wcc        | 1.159 | 1.043 | 0.900 | 1.072
+ 130 | Long Beach St    | big_west   | 1.159 | 1.039 | 0.896 | 1.036
+ 131 | Louisiana Tech   | cusa       | 1.156 | 1.046 | 0.905 | 1.046
+ 132 | Rutgers          | big_ten    | 1.155 | 1.101 | 0.953 | 1.134
+ 133 | Pacific          | wcc        | 1.153 | 1.158 | 1.004 | 1.073
+ 134 | E Washington     | big_sky    | 1.151 | 1.103 | 0.959 | 1.040
+ 135 | Drexel           | caa        | 1.150 | 1.057 | 0.919 | 1.006
+ 136 | Murray St        | mvc        | 1.149 | 1.106 | 0.962 | 1.048
+ 137 | Boston Univ      | patriot    | 1.148 | 1.086 | 0.946 | 0.985
+ 138 | Duquesne         | a_ten      | 1.142 | 1.109 | 0.971 | 1.039
+ 139 | Troy             | sun_belt   | 1.134 | 1.294 | 1.141 | 1.034
+ 140 | UC Santa Barbara | big_west   | 1.132 | 1.082 | 0.956 | 1.030
+ 141 | UCF              | aac        | 1.132 | 1.015 | 0.896 | 1.067
+ 142 | Cal Baptist      | wac        | 1.132 | 1.162 | 1.026 | 1.045
+ 143 | N Kentucky       | horizon    | 1.128 | 1.068 | 0.946 | 1.032
+ 144 | Southern Utah    | wac        | 1.127 | 1.075 | 0.954 | 1.051
+ 145 | Grand Canyon     | wac        | 1.124 | 1.074 | 0.956 | 1.018
+ 146 | Hawaii           | big_west   | 1.120 | 1.008 | 0.900 | 1.045
+ 147 | Davidson         | a_ten      | 1.118 | 1.051 | 0.940 | 1.054
+ 148 | La Salle         | a_ten      | 1.117 | 1.045 | 0.935 | 1.038
+ 149 | G Washington     | a_ten      | 1.115 | 1.060 | 0.950 | 1.043
+ 150 | Montana          | big_sky    | 1.115 | 1.126 | 1.010 | 1.053
+ 151 | Northeastern     | caa        | 1.115 | 1.067 | 0.957 | 1.024
+ 152 | F Dickinson      | nec        | 1.115 | 1.012 | 0.908 | 0.962
+ 153 | UT San Antonio   | cusa       | 1.114 | 1.069 | 0.960 | 1.063
+ 154 | Youngstown St    | horizon    | 1.111 | 1.037 | 0.934 | 1.015
+ 155 | Towson           | caa        | 1.108 | 1.067 | 0.963 | 1.017
+ 156 | S Illinois       | mvc        | 1.106 | 1.179 | 1.066 | 1.055
+ 157 | Cincinnati       | aac        | 1.105 | 1.020 | 0.923 | 1.071
+ 158 | Pepperdine       | wcc        | 1.104 | 1.067 | 0.967 | 1.058
+ 159 | Quinnipiac       | maac       | 1.102 | 0.970 | 0.880 | 0.989
+ 160 | Iona             | maac       | 1.098 | 0.995 | 0.906 | 0.980
+ 161 | St Mary's CA     | wcc        | 1.098 | 1.055 | 0.960 | 1.070
+ 162 | Old Dominion     | sun_belt   | 1.097 | 1.044 | 0.951 | 1.020
+ 163 | N Dakota St      | summit     | 1.096 | 1.112 | 1.014 | 1.029
+ 164 | North Dakota     | summit     | 1.096 | 1.148 | 1.048 | 1.019
+ 165 | George Mason     | a_ten      | 1.094 | 1.002 | 0.916 | 1.049
+ 166 | Holy Cross       | patriot    | 1.094 | 0.976 | 0.893 | 0.989
+ 167 | N Illinois       | mac        | 1.093 | 1.107 | 1.013 | 1.035
+ 168 | Vermont          | aec        | 1.093 | 0.955 | 0.874 | 0.980
+ 169 | Chattanooga      | southern   | 1.093 | 0.945 | 0.865 | 1.010
+ 170 | Texas St         | sun_belt   | 1.093 | 1.023 | 0.937 | 1.011
+ 171 | Air Force        | mwc        | 1.091 | 1.045 | 0.957 | 1.054
+ 172 | Abilene Chr      | wac        | 1.089 | 1.089 | 1.001 | 1.021
+ 173 | Boise St         | mwc        | 1.087 | 1.027 | 0.945 | 1.043
+ 174 | UT Arlington     | wac        | 1.087 | 1.153 | 1.061 | 1.050
+ 175 | IUPUI            | horizon    | 1.085 | 1.156 | 1.066 | 1.036
+ 176 | Akron            | mac        | 1.084 | 1.080 | 0.995 | 1.040
+ 177 | IL Chicago       | mvc        | 1.084 | 0.939 | 0.866 | 1.040
+ 178 | New Mexico St    | wac        | 1.084 | 0.979 | 0.904 | 1.039
+ 179 | Utah Tech        | wac        | 1.083 | 1.152 | 1.064 | 1.016
+ 180 | Gardner Webb     | big_south  | 1.082 | 1.169 | 1.080 | 0.969
+ 181 | UAB              | cusa       | 1.082 | 1.118 | 1.033 | 1.040
+ 182 | UC Davis         | big_west   | 1.082 | 1.052 | 0.972 | 1.038
+ 183 | Stony Brook      | caa        | 1.080 | 1.098 | 1.016 | 1.018
+ 184 | Austin Peay      | a_sun      | 1.079 | 0.954 | 0.884 | 1.023
+ 185 | Buffalo          | mac        | 1.078 | 1.041 | 0.966 | 1.029
+ 186 | SE Louisiana     | southland  | 1.076 | 0.956 | 0.889 | 0.996
+ 187 | Marshall         | sun_belt   | 1.070 | 0.986 | 0.922 | 1.025
+ 188 | Norfolk St       | meac       | 1.070 | 0.926 | 0.865 | 0.964
+ 189 | North Texas      | cusa       | 1.070 | 1.035 | 0.968 | 1.065
+ 190 | Wofford          | southern   | 1.069 | 1.110 | 1.039 | 1.007
+ 191 | Delaware         | caa        | 1.069 | 1.064 | 0.996 | 1.020
+ 192 | Idaho            | big_sky    | 1.068 | 1.126 | 1.055 | 1.038
+ 193 | Lehigh           | patriot    | 1.065 | 1.109 | 1.041 | 1.000
+ 194 | Tennessee Tech   | ovc        | 1.063 | 1.073 | 1.009 | 0.993
+ 195 | Xavier           | big_east   | 1.063 | 0.968 | 0.911 | 1.106
+ 196 | Mercer           | southern   | 1.062 | 1.046 | 0.985 | 1.037
+ 197 | Charlotte        | cusa       | 1.062 | 1.024 | 0.964 | 1.070
+ 198 | Oral Roberts     | summit     | 1.062 | 1.236 | 1.164 | 1.057
+ 199 | Southern Miss    | sun_belt   | 1.061 | 1.005 | 0.947 | 1.017
+ 200 | Yale             | ivy        | 1.058 | 1.003 | 0.947 | 1.058
+ 201 | CS Fullerton     | big_west   | 1.058 | 1.009 | 0.953 | 1.037
+ 202 | Dayton           | a_ten      | 1.057 | 1.067 | 1.009 | 1.065
+ 203 | ETSU             | southern   | 1.056 | 0.973 | 0.921 | 0.997
+ 204 | SUNY Albany      | aec        | 1.055 | 0.931 | 0.882 | 0.990
+ 205 | Lipscomb         | a_sun      | 1.055 | 1.070 | 1.014 | 1.021
+ 206 | Ga Southern      | sun_belt   | 1.054 | 1.154 | 1.095 | 0.996
+ 207 | Ark Little Rock  | ovc        | 1.054 | 0.844 | 0.801 | 1.010
+ 208 | E Illinois       | ovc        | 1.051 | 1.033 | 0.983 | 0.981
+ 209 | E Kentucky       | a_sun      | 1.049 | 1.161 | 1.106 | 1.003
+ 210 | WI Milwaukee     | horizon    | 1.049 | 0.965 | 0.919 | 1.036
+ 211 | Florida Intl     | cusa       | 1.049 | 1.103 | 1.051 | 1.051
+ 212 | Jacksonville St  | a_sun      | 1.048 | 0.969 | 0.925 | 1.012
+ 213 | Nevada           | mwc        | 1.046 | 1.051 | 1.005 | 1.055
+ 214 | Sam Houston St   | wac        | 1.045 | 1.065 | 1.018 | 1.041
+ 215 | North Alabama    | a_sun      | 1.041 | 1.030 | 0.989 | 1.023
+ 216 | Monmouth NJ      | caa        | 1.041 | 1.020 | 0.979 | 1.007
+ 217 | TAM C. Christi   | southland  | 1.041 | 0.970 | 0.932 | 0.997
+ 218 | FL Atlantic      | cusa       | 1.040 | 1.038 | 0.998 | 1.050
+ 219 | Louisiana        | sun_belt   | 1.040 | 0.906 | 0.871 | 1.038
+ 220 | Coastal Car      | sun_belt   | 1.039 | 1.098 | 1.057 | 1.029
+ 221 | Indiana St       | mvc        | 1.038 | 1.028 | 0.990 | 1.035
+ 222 | VCU              | a_ten      | 1.036 | 0.946 | 0.914 | 1.057
+ 223 | South Dakota     | summit     | 1.035 | 1.051 | 1.015 | 1.037
+ 224 | St Thomas MN     | summit     | 1.034 | 0.983 | 0.951 | 1.017
+ 225 | E Michigan       | mac        | 1.034 | 0.994 | 0.962 | 1.031
+ 226 | Idaho St         | big_sky    | 1.033 | 0.929 | 0.900 | 1.043
+ 227 | Fresno St        | mwc        | 1.032 | 0.961 | 0.931 | 1.045
+ 228 | NC A&T           | caa        | 1.032 | 1.032 | 1.000 | 1.016
+ 229 | Miami OH         | mac        | 1.029 | 1.127 | 1.095 | 1.045
+ 230 | Lamar            | southland  | 1.026 | 0.988 | 0.963 | 0.993
+ 231 | W Michigan       | mac        | 1.025 | 1.021 | 0.996 | 1.062
+ 232 | Maine            | aec        | 1.024 | 0.970 | 0.947 | 1.017
+ 233 | William & Mary   | caa        | 1.024 | 1.050 | 1.026 | 1.012
+ 234 | Portland St      | big_sky    | 1.020 | 0.982 | 0.963 | 1.038
+ 235 | N Colorado       | big_sky    | 1.017 | 0.950 | 0.934 | 1.033
+ 236 | Brown            | ivy        | 1.017 | 1.031 | 1.015 | 1.033
+ 237 | TN Martin        | ovc        | 1.016 | 1.010 | 0.995 | 1.007
+ 238 | UC San Diego     | big_west   | 1.015 | 0.997 | 0.982 | 1.032
+ 239 | Kennesaw         | a_sun      | 1.013 | 1.054 | 1.040 | 1.023
+ 240 | Colgate          | patriot    | 1.009 | 0.900 | 0.891 | 0.988
+ 241 | Siena            | maac       | 1.009 | 1.068 | 1.058 | 0.979
+ 242 | Appalachian St   | sun_belt   | 1.005 | 1.044 | 1.038 | 1.033
+ 243 | UTRGV            | wac        | 1.003 | 1.002 | 0.999 | 1.039
+ 244 | Jacksonville     | a_sun      | 1.001 | 0.974 | 0.973 | 1.033
+ 245 | PFW              | horizon    | 1.000 | 1.000 | 1.000 | 1.029
+ 246 | Cornell          | ivy        | 0.997 | 0.959 | 0.962 | 1.038
+ 247 | Bucknell         | patriot    | 0.996 | 0.921 | 0.925 | 1.013
+ 248 | NE Omaha         | summit     | 0.990 | 1.020 | 1.030 | 1.039
+ 249 | Georgia St       | sun_belt   | 0.990 | 0.951 | 0.961 | 1.023
+ 250 | Arkansas St      | sun_belt   | 0.989 | 1.063 | 1.076 | 1.013
+ 251 | Niagara          | maac       | 0.988 | 1.041 | 1.053 | 0.984
+ 252 | Fairfield        | maac       | 0.987 | 0.926 | 0.938 | 0.994
+ 253 | Loyola-Chicago   | a_ten      | 0.983 | 0.938 | 0.955 | 1.053
+ 254 | Cal Poly         | big_west   | 0.981 | 0.932 | 0.950 | 1.050
+ 255 | Hampton          | caa        | 0.980 | 0.985 | 1.004 | 1.026
+ 256 | Denver           | summit     | 0.980 | 1.013 | 1.034 | 1.025
+ 257 | High Point       | big_south  | 0.979 | 0.999 | 1.020 | 0.974
+ 258 | Manhattan        | maac       | 0.977 | 0.936 | 0.958 | 0.983
+ 259 | C Michigan       | mac        | 0.976 | 1.035 | 1.060 | 1.048
+ 260 | Stetson          | a_sun      | 0.970 | 0.933 | 0.963 | 1.020
+ 261 | San Jose St      | mwc        | 0.969 | 0.967 | 0.997 | 1.052
+ 262 | Loy Marymount    | wcc        | 0.968 | 0.953 | 0.985 | 1.079
+ 263 | Oakland          | horizon    | 0.967 | 1.029 | 1.064 | 1.033
+ 264 | Ohio             | mac        | 0.967 | 1.013 | 1.047 | 1.047
+ 265 | Elon             | caa        | 0.966 | 0.940 | 0.973 | 1.020
+ 266 | Samford          | southern   | 0.966 | 1.009 | 1.045 | 1.019
+ 267 | CS Northridge    | big_west   | 0.965 | 0.992 | 1.028 | 1.042
+ 268 | SE Missouri St   | ovc        | 0.964 | 0.979 | 1.016 | 1.007
+ 269 | Tarleton St      | wac        | 0.960 | 0.961 | 1.002 | 1.032
+ 270 | Evansville       | mvc        | 0.959 | 1.005 | 1.047 | 1.042
+ 271 | Col Charleston   | caa        | 0.958 | 1.014 | 1.058 | 1.011
+ 272 | TX A&M Commerce  | southland  | 0.957 | 1.028 | 1.075 | 1.010
+ 273 | Robert Morris    | horizon    | 0.956 | 0.905 | 0.947 | 1.027
+ 274 | Southern Univ    | swac       | 0.954 | 0.888 | 0.930 | 1.014
+ 275 | Sacred Heart     | nec        | 0.951 | 0.951 | 1.001 | 0.960
+ 276 | Valparaiso       | mvc        | 0.949 | 0.976 | 1.028 | 1.053
+ 277 | Howard           | meac       | 0.948 | 0.955 | 1.007 | 0.988
+ 278 | Southern Indiana | ovc        | 0.948 | 0.973 | 1.027 | 0.995
+ 279 | CS Bakersfield   | big_west   | 0.946 | 0.874 | 0.923 | 1.044
+ 280 | UC Riverside     | big_west   | 0.945 | 0.867 | 0.917 | 1.040
+ 281 | UNC Greensboro   | southern   | 0.940 | 0.965 | 1.026 | 0.992
+ 282 | Morgan St        | meac       | 0.940 | 0.917 | 0.976 | 0.978
+ 283 | Seattle          | wac        | 0.940 | 0.969 | 1.031 | 1.040
+ 284 | Wright St        | horizon    | 0.939 | 1.077 | 1.147 | 1.048
+ 285 | Campbell         | big_south  | 0.938 | 0.856 | 0.912 | 0.955
+ 286 | W Illinois       | summit     | 0.938 | 1.022 | 1.090 | 1.014
+ 287 | Army             | patriot    | 0.933 | 0.970 | 1.040 | 0.996
+ 288 | Binghamton       | aec        | 0.932 | 0.952 | 1.022 | 0.975
+ 289 | Bellarmine       | a_sun      | 0.930 | 0.963 | 1.035 | 1.029
+ 290 | UMBC             | aec        | 0.929 | 1.002 | 1.078 | 0.981
+ 291 | Hofstra          | caa        | 0.929 | 0.917 | 0.987 | 1.003
+ 292 | Marist           | maac       | 0.928 | 0.922 | 0.993 | 0.997
+ 293 | Incarnate Word   | southland  | 0.924 | 0.899 | 0.973 | 0.996
+ 294 | Ark Pine Bluff   | swac       | 0.924 | 0.991 | 1.072 | 0.988
+ 295 | Missouri KC      | summit     | 0.919 | 0.968 | 1.053 | 1.030
+ 296 | Radford          | big_south  | 0.916 | 0.942 | 1.029 | 0.962
+ 297 | Grambling        | swac       | 0.914 | 0.894 | 0.978 | 1.006
+ 298 | Bethune-Cookman  | swac       | 0.914 | 0.929 | 1.016 | 0.986
+ 299 | Prairie View     | swac       | 0.913 | 0.976 | 1.069 | 1.000
+ 300 | American Univ    | patriot    | 0.913 | 0.947 | 1.037 | 1.017
+ 301 | Weber St         | big_sky    | 0.908 | 0.920 | 1.013 | 1.023
+ 302 | Dartmouth        | ivy        | 0.902 | 0.921 | 1.022 | 1.059
+ 303 | Coppin St        | meac       | 0.900 | 0.874 | 0.971 | 0.983
+ 304 | Furman           | southern   | 0.900 | 0.943 | 1.048 | 0.999
+ 305 | NJIT             | aec        | 0.897 | 0.946 | 1.055 | 0.971
+ 306 | Alabama St       | swac       | 0.895 | 0.979 | 1.094 | 0.997
+ 307 | Mt St Mary's     | maac       | 0.895 | 0.902 | 1.008 | 0.996
+ 308 | Wagner           | nec        | 0.893 | 0.968 | 1.084 | 0.964
+ 309 | Tennessee St     | ovc        | 0.888 | 0.992 | 1.118 | 1.000
+ 310 | Alcorn St        | swac       | 0.888 | 0.948 | 1.068 | 0.985
+ 311 | Loyola MD        | patriot    | 0.885 | 0.885 | 0.999 | 0.990
+ 312 | McNeese St       | southland  | 0.882 | 0.988 | 1.120 | 0.999
+ 313 | Houston Chr      | southland  | 0.881 | 0.900 | 1.021 | 1.012
+ 314 | Alabama A&M      | swac       | 0.881 | 0.874 | 0.993 | 0.976
+ 315 | SIUE             | ovc        | 0.881 | 1.026 | 1.165 | 1.021
+ 316 | NC Central       | meac       | 0.878 | 1.023 | 1.165 | 0.979
+ 317 | Bradley          | mvc        | 0.878 | 0.929 | 1.058 | 1.052
+ 318 | MD E Shore       | meac       | 0.876 | 0.934 | 1.066 | 0.986
+ 319 | New Orleans      | southland  | 0.875 | 0.941 | 1.076 | 0.977
+ 320 | Utah Valley      | wac        | 0.874 | 0.867 | 0.992 | 1.035
+ 321 | Canisius         | maac       | 0.874 | 0.949 | 1.086 | 0.986
+ 322 | UNC Wilmington   | caa        | 0.871 | 0.863 | 0.990 | 1.018
+ 323 | Rider            | maac       | 0.869 | 0.923 | 1.062 | 0.986
+ 324 | St Bonaventure   | a_ten      | 0.865 | 0.877 | 1.014 | 1.041
+ 325 | MA Lowell        | aec        | 0.864 | 0.871 | 1.009 | 1.013
+ 326 | Presbyterian     | big_south  | 0.862 | 0.942 | 1.092 | 0.964
+ 327 | ULM              | sun_belt   | 0.861 | 0.976 | 1.134 | 1.011
+ 328 | Lafayette        | patriot    | 0.861 | 0.880 | 1.022 | 0.993
+ 329 | Cent Arkansas    | a_sun      | 0.856 | 0.818 | 0.955 | 1.018
+ 330 | Morehead St      | ovc        | 0.850 | 0.891 | 1.048 | 1.000
+ 331 | Utah St          | mwc        | 0.849 | 0.966 | 1.138 | 1.048
+ 332 | Detroit          | horizon    | 0.849 | 0.892 | 1.051 | 1.037
+ 333 | St Francis NY    | nec        | 0.848 | 0.880 | 1.038 | 0.974
+ 334 | Northwestern LA  | southland  | 0.847 | 0.920 | 1.086 | 1.000
+ 335 | Merrimack        | nec        | 0.845 | 0.949 | 1.123 | 0.968
+ 336 | Bryant           | aec        | 0.841 | 0.914 | 1.087 | 0.970
+ 337 | Florida A&M      | swac       | 0.840 | 0.925 | 1.102 | 1.002
+ 338 | North Florida    | a_sun      | 0.840 | 0.914 | 1.089 | 1.028
+ 339 | South Alabama    | sun_belt   | 0.839 | 0.855 | 1.018 | 1.007
+ 340 | Stonehill        | nec        | 0.835 | 0.912 | 1.092 | 0.962
+ 341 | TX Southern      | swac       | 0.826 | 0.954 | 1.155 | 1.015
+ 342 | New Hampshire    | aec        | 0.823 | 0.841 | 1.022 | 0.994
+ 343 | Queens NC        | a_sun      | 0.818 | 0.920 | 1.125 | 1.002
+ 344 | LIU Brooklyn     | nec        | 0.815 | 0.890 | 1.092 | 0.976
+ 345 | Longwood         | big_south  | 0.807 | 0.941 | 1.165 | 0.990
+ 346 | UNC Asheville    | big_south  | 0.805 | 0.859 | 1.067 | 0.967
+ 347 | Central Conn     | nec        | 0.802 | 0.871 | 1.086 | 0.954
+ 348 | W Carolina       | southern   | 0.795 | 0.841 | 1.058 | 0.991
+ 349 | Lindenwood       | ovc        | 0.792 | 0.882 | 1.114 | 1.008
+ 350 | Delaware St      | meac       | 0.781 | 0.768 | 0.983 | 0.994
+ 351 | Nicholls St      | southland  | 0.770 | 0.895 | 1.161 | 0.979
+ 352 | Winthrop         | big_south  | 0.769 | 0.800 | 1.041 | 0.952
+ 353 | SC Upstate       | big_south  | 0.769 | 0.811 | 1.055 | 0.973
+ 354 | Navy             | patriot    | 0.768 | 0.854 | 1.112 | 0.996
+ 355 | St Francis PA    | nec        | 0.758 | 0.825 | 1.088 | 0.978
+ 356 | St Peter's       | maac       | 0.736 | 0.801 | 1.089 | 0.993
+ 357 | Charleston So    | big_south  | 0.727 | 0.828 | 1.138 | 0.986
+ 358 | MS Valley St     | swac       | 0.716 | 0.860 | 1.201 | 0.994
+ 359 | Chicago St       | ind        | 0.713 | 0.905 | 1.269 | 0.999
+ 360 | S Carolina St    | meac       | 0.687 | 0.769 | 1.118 | 0.992
+ 361 | Hartford         | ind        | 0.585 | 0.696 | 1.190 | 0.966
 (361 rows)
 
 COPY 361

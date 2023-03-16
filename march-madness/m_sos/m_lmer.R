@@ -24,7 +24,8 @@ r.team_conf_id as o_conf,
 r.opponent_id as opponent,
 r.opponent_conf_id as d_conf,
 r.game_length as game_length,
-ln(r.team_score::float) as log_ps
+--ln(r.team_score::float) as log_ps
+r.team_score::float as ps
 from march_madness.m_results r
 
 where
@@ -93,20 +94,18 @@ dbWriteTable(con,c("march_madness","m_parameter_levels"),parameter_levels,row.na
 
 g <- cbind(fp,rp)
 
-g$log_ps <- log_ps
+g$ps <- ps
 
 dim(g)
 
 #model0 <- log_ps ~ year+field+d_conf+o_conf+(1|offense)+(1|defense)
 #fit0 <- lmer(model0, data=g, REML=FALSE, verbose=TRUE)
 
-model <- log_ps ~ season+field+d_conf+o_conf+game_length+(1|offense)+(1|defense)+(1|game_id)
-fit <- lmer(model,
-            data=g,
-            verbose=TRUE,
-            control=lmerControl(calc.derivs = FALSE))
-#            nAGQ=0,
-#            control=lmerControl(optimizer = "nloptwrap"))
+model <- ps ~ season+field+d_conf+o_conf+game_length+(1|offense)+(1|defense)+(1|game_id)
+fit <- glmer(model, data=g, verbose=TRUE, family=poisson(link=log),
+            #control=glmerControl(calc.derivs = FALSE))
+            nAGQ=0,
+            control=glmerControl(optimizer = "nloptwrap"))
 
 fit
 summary(fit)
