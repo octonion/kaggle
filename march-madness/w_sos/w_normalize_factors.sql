@@ -40,22 +40,22 @@ insert into march_madness.w_factors
 (parameter,level,type,method,season,first_season,last_season,raw_factor,exp_factor)
 (
 select
-npl.parameter as parameter,
-split_part(npl.level,'/',2) as level,
-npl.type as type,
+wpl.parameter as parameter,
+split_part(wpl.level,'/',2) as level,
+wpl.type as type,
 'log_regression' as method,
-split_part(npl.level,'/',1)::integer as season,
-split_part(npl.level,'/',1)::integer as first_season,
-split_part(npl.level,'/',1)::integer as last_season,
+split_part(wpl.level,'/',1)::integer as season,
+split_part(wpl.level,'/',1)::integer as first_season,
+split_part(wpl.level,'/',1)::integer as last_season,
 estimate as raw_factor,
 null as exp_factor
 --exp(estimate) as exp_factor
-from march_madness.w_parameter_levels npl
+from march_madness.w_parameter_levels wpl
 left outer join march_madness.w_basic_factors nbf
-  on (nbf.factor,nbf.level,nbf.type)=(npl.parameter,npl.level,npl.type)
+  on (nbf.factor,nbf.level,nbf.type)=(wpl.parameter,wpl.level,wpl.type)
 where
-    npl.type='random'
-and npl.parameter in ('defense','offense')
+    wpl.type='random'
+and wpl.parameter in ('defense','offense')
 );
 
 -- other random
@@ -64,9 +64,9 @@ insert into march_madness.w_factors
 (parameter,level,type,method,season,first_season,last_season,raw_factor,exp_factor)
 (
 select
-npl.parameter as parameter,
-npl.level as level,
-npl.type as type,
+wpl.parameter as parameter,
+wpl.level as level,
+wpl.type as type,
 'log_regression' as method,
 null as season,
 null as first_season,
@@ -74,12 +74,12 @@ null as last_season,
 estimate as raw_factor,
 null as exp_factor
 --exp(estimate) as exp_factor
-from march_madness.w_parameter_levels npl
+from march_madness.w_parameter_levels wpl
 left outer join march_madness.w_basic_factors nbf
-  on (nbf.factor,nbf.level,nbf.type)=(npl.parameter,npl.level,npl.type)
+  on (nbf.factor,nbf.level,nbf.type)=(wpl.parameter,wpl.level,wpl.type)
 where
-    npl.type='random'
-and npl.parameter not in ('defense','offense')
+    wpl.type='random'
+and wpl.parameter not in ('defense','offense')
 );
 
 -- Fixed factors
@@ -90,22 +90,22 @@ insert into march_madness.w_factors
 (parameter,level,type,method,season,first_season,last_season,raw_factor,exp_factor)
 (
 select
-npl.parameter as parameter,
-npl.level as level,
-npl.type as type,
+wpl.parameter as parameter,
+wpl.level as level,
+wpl.type as type,
 'log_regression' as method,
-npl.level::integer as season,
-npl.level::integer as first_season,
-npl.level::integer as last_season,
+wpl.level::integer as season,
+wpl.level::integer as first_season,
+wpl.level::integer as last_season,
 coalesce(estimate,0.0) as raw_factor,
 null as exp_factor
 --coalesce(exp(estimate),1.0) as exp_factor
-from march_madness.w_parameter_levels npl
+from march_madness.w_parameter_levels wpl
 left outer join march_madness.w_basic_factors nbf
-  on (nbf.factor,nbf.type)=(npl.parameter||npl.level,npl.type)
+  on (nbf.factor,nbf.type)=(wpl.parameter||wpl.level,wpl.type)
 where
-    npl.type='fixed'
-and npl.parameter in ('season')
+    wpl.type='fixed'
+and wpl.parameter in ('season')
 );
 
 -- field
@@ -114,9 +114,9 @@ insert into march_madness.w_factors
 (parameter,level,type,method,season,first_season,last_season,raw_factor,exp_factor)
 (
 select
-npl.parameter as parameter,
-npl.level as level,
-npl.type as type,
+wpl.parameter as parameter,
+wpl.level as level,
+wpl.type as type,
 'log_regression' as method,
 null as season,
 null as first_season,
@@ -124,13 +124,13 @@ null as last_season,
 coalesce(estimate,0.0) as raw_factor,
 null as exp_factor
 --coalesce(exp(estimate),1.0) as exp_factor
-from march_madness.w_parameter_levels npl
+from march_madness.w_parameter_levels wpl
 left outer join march_madness.w_basic_factors nbf
-  on (nbf.factor,nbf.type)=(npl.parameter||npl.level,npl.type)
+  on (nbf.factor,nbf.type)=(wpl.parameter||wpl.level,wpl.type)
 where
-    npl.type='fixed'
-and npl.parameter in ('field')
-and npl.level not in ('none')
+    wpl.type='fixed'
+and wpl.parameter in ('field')
+and wpl.level not in ('none')
 );
 
 -- other fixed
@@ -139,9 +139,9 @@ insert into march_madness.w_factors
 (parameter,level,type,method,season,first_season,last_season,raw_factor,exp_factor)
 (
 select
-npl.parameter as parameter,
-npl.level as level,
-npl.type as type,
+wpl.parameter as parameter,
+wpl.level as level,
+wpl.type as type,
 'log_regression' as method,
 null as season,
 null as first_season,
@@ -149,12 +149,12 @@ null as last_season,
 coalesce(estimate,0.0) as raw_factor,
 null as exp_factor
 --coalesce(exp(estimate),1.0) as exp_factor
-from march_madness.w_parameter_levels npl
+from march_madness.w_parameter_levels wpl
 left outer join march_madness.w_basic_factors nbf
-  on (nbf.factor,nbf.type)=(npl.parameter||npl.level,npl.type)
+  on (nbf.factor,nbf.type)=(wpl.parameter||wpl.level,wpl.type)
 where
-    npl.type='fixed'
-and npl.parameter not in ('field','season')
+    wpl.type='fixed'
+and wpl.parameter not in ('field','season')
 );
 
 create temporary table scale (

@@ -1,6 +1,6 @@
-select npl.parameter,npl.type,npl.level,nbf.estimate
-from ncaa._parameter_levels npl
+select wpl.parameter,wpl.type,wpl.level,nbf.estimate
+from ncaa._parameter_levels wpl
 left outer join ncaa._basic_factors nbf
-  on (nbf.factor,nbf.level,nbf.type)=(npl.parameter,npl.level,npl.type)
-where npl.type='random'
+  on (nbf.factor,nbf.level,nbf.type)=(wpl.parameter,wpl.level,wpl.type)
+where wpl.type='random'
 order by parameter,level;
