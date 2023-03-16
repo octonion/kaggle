@@ -47,12 +47,12 @@ case when r.team_score>r.opponent_score and r.field='offense_home' then 1
 count(*)
 )::numeric(4,3) as diff,
 count(*)
-from ncaa.results r
-join ncaa._schedule_factors t
+from march_madness.results r
+join march_madness.m_schedule_factors t
   on (t.year,t.school_id)=(r.year,r.school_id)
-join ncaa._schedule_factors o
+join march_madness.m_schedule_factors o
   on (o.year,o.school_id)=(r.year,r.opponent_id)
-join ncaa._factors f
+join march_madness.m_factors f
   on (f.parameter,f.level)=('field',r.field)
 where
 
@@ -121,12 +121,12 @@ case when r.team_score>r.opponent_score and r.field='offense_home' then 1
 count(*)
 )::numeric(4,3) as diff,
 count(*)
-from ncaa.results r
-join ncaa._schedule_factors t
+from march_madness.results r
+join march_madness.m_schedule_factors t
   on (t.year,t.school_id)=(r.year,r.school_id)
-join ncaa._schedule_factors o
+join march_madness.m_schedule_factors o
   on (o.year,o.school_id)=(r.year,r.opponent_id)
-join ncaa._factors f
+join march_madness.m_factors f
   on (f.parameter,f.level)=('field',r.field)
 where
 

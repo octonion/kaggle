@@ -1,8 +1,8 @@
 begin;
 
-drop table if exists ncaa._geo_schedule_factors;
+drop table if exists march_madness.m_geo_schedule_factors;
 
-create table ncaa._geo_schedule_factors (
+create table march_madness.m_geo_schedule_factors (
         school_id		integer,
 	year			integer,
         offensive               float,
@@ -23,17 +23,17 @@ create table ncaa._geo_schedule_factors (
 -- schedule_defensive
 -- schedule_strength 
 
-insert into ncaa._geo_schedule_factors
+insert into march_madness.m_geo_schedule_factors
 (school_id,year,offensive,defensive)
 (
 select o.level::integer,o.year,o.exp_factor,d.exp_factor
-from ncaa._geo_factors o
-left outer join ncaa._geo_factors d
+from march_madness.m_geo_factors o
+left outer join march_madness.m_geo_factors d
   on (d.level,d.year,d.parameter)=(o.level,o.year,'defense')
 where o.parameter='offense'
 );
 
-update ncaa._geo_schedule_factors
+update march_madness.m_geo_schedule_factors
 set strength=offensive/defensive;
 
 ----
@@ -65,7 +65,7 @@ r.opponent_div_id,
 r.game_date,
 r.year,
 r.field
-from ncaa.results r
+from march_madness.results r
 where r.year between 2002 and 2023
 );
 
@@ -74,28 +74,28 @@ set
 offensive=o.offensive,
 defensive=o.defensive,
 strength=o.strength
-from ncaa._geo_schedule_factors o
+from march_madness.m_geo_schedule_factors o
 where (r.opponent_id,r.year)=(o.school_id,o.year);
 
 -- field
 
 update r
 set field=f.exp_factor
-from ncaa._geo_factors f
+from march_madness.m_geo_factors f
 where (f.parameter,f.level)=('field',r.field_id);
 
 -- opponent o_div
 
 update r
 set o_div=f.exp_factor
-from ncaa._geo_factors f
+from march_madness.m_geo_factors f
 where (f.parameter,f.level::integer)=('o_div',r.opponent_div_id);
 
 -- opponent d_div
 
 update r
 set d_div=f.exp_factor
-from ncaa._geo_factors f
+from march_madness.m_geo_factors f
 where (f.parameter,f.level::integer)=('d_div',r.opponent_div_id);
 
 create temporary table rs (
@@ -124,7 +124,7 @@ from r
 group by school_id,year
 );
 
-update ncaa._geo_schedule_factors
+update march_madness.m_geo_schedule_factors
 set
   schedule_offensive=rs.offensive,
   schedule_defensive=rs.defensive,

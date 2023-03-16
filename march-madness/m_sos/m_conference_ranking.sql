@@ -1,9 +1,9 @@
 begin;
 
 create temporary table r (
-       school_id	 integer,
-       div	 	 integer,
-       year	 	 integer,
+       team_id	 integer,
+       conf	 	 text,
+       season 	 integer,
        str	 	 numeric(4,3),
        ofs	 	 numeric(4,3),
        dfs	 	 numeric(4,3),
@@ -11,41 +11,40 @@ create temporary table r (
 );
 
 insert into r
-(school_id,div,year,str,ofs,dfs,sos)
+(team_id,conf,season,str,ofs,dfs,sos)
 (
 select
-t.school_id,
-t.div_id as div,
-sf.year,
-(sf.strength*o.exp_factor/d.exp_factor)::numeric(4,3) as str,
+msf.team_id,
+mtc.conf_abbrev as conf,
+msf.season,
+(msf.strength*o.exp_factor/d.exp_factor)::numeric(4,3) as str,
 (offensive*o.exp_factor)::numeric(4,3) as ofs,
 (defensive*d.exp_factor)::numeric(4,3) as dfs,
 schedule_strength::numeric(4,3) as sos
-from ncaa._schedule_factors sf
-left outer join ncaa.schools_divisions t
-  on (t.school_id,t.year)=(sf.school_id,sf.year)
-left outer join ncaa._factors o
-  on (o.parameter,o.level)=('o_div',length(t.division)::text)
-left outer join ncaa._factors d
-  on (d.parameter,d.level)=('d_div',length(t.division)::text)
-where sf.year in (2023)
-and t.school_id is not null
+from march_madness.m_schedule_factors msf
+left outer join march_madness.m_team_conferences mtc
+  on (mtc.team_id,mtc.season)=(msf.team_id,msf.season)
+left outer join march_madness.m_factors o
+  on (o.parameter,o.level)=('o_conf',mtc.conf_abbrev)
+left outer join march_madness.m_factors d
+  on (d.parameter,d.level)=('d_conf',mtc.conf_abbrev)
+where msf.season in (2023)
 order by str desc);
 
 select
-year,
+season,
 exp(avg(log(str)))::numeric(4,3) as str,
 exp(avg(log(ofs)))::numeric(4,3) as ofs,
 exp(-avg(log(dfs)))::numeric(4,3) as dfs,
 exp(avg(log(sos)))::numeric(4,3) as sos,
 count(*) as n
 from r
-group by year
-order by year asc;
+group by season
+order by season asc;
 
 select
-year,
-div,
+season,
+conf,
 exp(avg(log(str)))::numeric(4,3) as str,
 exp(avg(log(ofs)))::numeric(4,3) as ofs,
 exp(-avg(log(dfs)))::numeric(4,3) as dfs,
@@ -56,12 +55,12 @@ exp(avg(log(sos)))::numeric(4,3) as sos,
 --avg(sos)::numeric(4,3) as sos,
 count(*) as n
 from r
-where div is not null
-group by year,div
-order by year asc,str desc;
+where conf is not null
+group by season,conf
+order by season asc,str desc;
 
 select * from r
-where div is null
-and year=2023;
+where conf is null
+and season=2023;
 
 commit;

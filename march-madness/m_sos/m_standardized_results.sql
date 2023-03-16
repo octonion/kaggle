@@ -65,7 +65,7 @@ l_team_id as opponent_id,
 w_score as team_score,
 l_score as opponent_score,
 num_ot as game_length
-from march_madness.m_ncaa_tourney_compact_results
+from march_madness.m_march_madness_tourney_compact_results
 union
 select
 2000000+game_id,
@@ -135,7 +135,7 @@ w_team_id as opponent_id,
 l_score as team_score,
 w_score as opponent_score,
 num_ot as game_length
-from march_madness.m_ncaa_tourney_compact_results
+from march_madness.m_march_madness_tourney_compact_results
 union
 select
 2000000+game_id,

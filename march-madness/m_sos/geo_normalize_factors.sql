@@ -8,13 +8,13 @@ create temporary table years (
 insert into years
 (first_year,last_year)
 (select min(level::integer),max(level::integer)
-from ncaa._geo_parameter_levels
+from march_madness.m_geo_parameter_levels
 where parameter='year'
 );
 
-drop table if exists ncaa._geo_factors;
+drop table if exists march_madness.m_geo_factors;
 
-create table ncaa._geo_factors (
+create table march_madness.m_geo_factors (
        parameter		text,
        level			text,
        type			text,
@@ -36,7 +36,7 @@ create table ncaa._geo_factors (
 
 -- defense,offense
 
-insert into ncaa._geo_factors
+insert into march_madness.m_geo_factors
 (parameter,level,type,method,year,first_year,last_year,raw_factor,exp_factor)
 (
 select
@@ -50,8 +50,8 @@ split_part(npl.level,'/',1)::integer as last_year,
 estimate as raw_factor,
 null as exp_factor
 --exp(estimate) as exp_factor
-from ncaa._geo_parameter_levels npl
-left outer join ncaa._geo_basic_factors nbf
+from march_madness.m_geo_parameter_levels npl
+left outer join march_madness.m_geo_basic_factors nbf
   on (nbf.factor,nbf.level,nbf.type)=(npl.parameter,npl.level,npl.type)
 where
     npl.type='random'
@@ -60,7 +60,7 @@ and npl.parameter in ('defense','offense')
 
 -- other random
 
-insert into ncaa._geo_factors
+insert into march_madness.m_geo_factors
 (parameter,level,type,method,year,first_year,last_year,raw_factor,exp_factor)
 (
 select
@@ -74,8 +74,8 @@ null as last_year,
 estimate as raw_factor,
 null as exp_factor
 --exp(estimate) as exp_factor
-from ncaa._geo_parameter_levels npl
-left outer join ncaa._geo_basic_factors nbf
+from march_madness.m_geo_parameter_levels npl
+left outer join march_madness.m_geo_basic_factors nbf
   on (nbf.factor,nbf.level,nbf.type)=(npl.parameter,npl.level,npl.type)
 where
     npl.type='random'
@@ -86,7 +86,7 @@ and npl.parameter not in ('defense','offense')
 
 -- year
 
-insert into ncaa._geo_factors
+insert into march_madness.m_geo_factors
 (parameter,level,type,method,year,first_year,last_year,raw_factor,exp_factor)
 (
 select
@@ -100,8 +100,8 @@ npl.level::integer as last_year,
 coalesce(estimate,0.0) as raw_factor,
 null as exp_factor
 --coalesce(exp(estimate),1.0) as exp_factor
-from ncaa._geo_parameter_levels npl
-left outer join ncaa._geo_basic_factors nbf
+from march_madness.m_geo_parameter_levels npl
+left outer join march_madness.m_geo_basic_factors nbf
   on (nbf.factor,nbf.type)=(npl.parameter||npl.level,npl.type)
 where
     npl.type='fixed'
@@ -110,7 +110,7 @@ and npl.parameter in ('year')
 
 -- field
 
-insert into ncaa._geo_factors
+insert into march_madness.m_geo_factors
 (parameter,level,type,method,year,first_year,last_year,raw_factor,exp_factor)
 (
 select
@@ -124,8 +124,8 @@ null as last_year,
 coalesce(estimate,0.0) as raw_factor,
 null as exp_factor
 --coalesce(exp(estimate),1.0) as exp_factor
-from ncaa._geo_parameter_levels npl
-left outer join ncaa._geo_basic_factors nbf
+from march_madness.m_geo_parameter_levels npl
+left outer join march_madness.m_geo_basic_factors nbf
   on (nbf.factor,nbf.type)=(npl.parameter||npl.level,npl.type)
 where
     npl.type='fixed'
@@ -135,7 +135,7 @@ and npl.level not in ('none')
 
 -- other fixed
 
-insert into ncaa._geo_factors
+insert into march_madness.m_geo_factors
 (parameter,level,type,method,year,first_year,last_year,raw_factor,exp_factor)
 (
 select
@@ -149,8 +149,8 @@ null as last_year,
 coalesce(estimate,0.0) as raw_factor,
 null as exp_factor
 --coalesce(exp(estimate),1.0) as exp_factor
-from ncaa._geo_parameter_levels npl
-left outer join ncaa._geo_basic_factors nbf
+from march_madness.m_geo_parameter_levels npl
+left outer join march_madness.m_geo_basic_factors nbf
   on (nbf.factor,nbf.type)=(npl.parameter||npl.level,npl.type)
 where
     npl.type='fixed'
@@ -168,22 +168,22 @@ insert into scale
 (select
 parameter,
 avg(raw_factor)
-from ncaa._geo_factors
+from march_madness.m_geo_factors
 where parameter not in ('o_div','d_div')
 group by parameter
 );
 
-update ncaa._geo_factors
+update march_madness.m_geo_factors
 set raw_factor=raw_factor-s.mean
 from scale s
-where s.parameter=ncaa._geo_factors.parameter;
+where s.parameter=march_madness.m_geo_factors.parameter;
 
-update ncaa._geo_factors
+update march_madness.m_geo_factors
 set exp_factor=exp(raw_factor);
 
 -- 'neutral' park confounded with 'none' field; set factor = 1.0 for field 'none'
 
-insert into ncaa._geo_factors
+insert into march_madness.m_geo_factors
 (parameter,level,type,method,year,first_year,last_year,raw_factor,exp_factor)
 values
 ('field','none','fixed','log_regression',null,null,null,0.0,1.0);

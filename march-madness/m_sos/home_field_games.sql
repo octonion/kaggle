@@ -9,7 +9,7 @@ else 0 end
 count(*)
 )::numeric(3,2) as win_pct,
 count(*) as n
-from ncaa.games g
+from march_madness.games g
 
 where
 

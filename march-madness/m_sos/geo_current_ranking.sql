@@ -28,15 +28,15 @@ sf.year,
 (offensive*o.exp_factor)::numeric(4,3) as ofs,
 (defensive*d.exp_factor)::numeric(4,3) as dfs,
 schedule_strength::numeric(4,3) as sos
-from ncaa._geo_schedule_factors sf
---join ncaa.schools s
+from march_madness.m_geo_schedule_factors sf
+--join march_madness.schools s
 --  on (s.school_id)=(sf.school_id)
-join ncaa.schools_divisions sd
+join march_madness.schools_divisions sd
 --  on (sd.school_id)=(sf.school_id)
   on (sd.school_id,sd.year)=(sf.school_id,sf.year)
-join ncaa._geo_factors o
+join march_madness.m_geo_factors o
   on (o.parameter,o.level::integer)=('o_div',sd.div_id)
-join ncaa._geo_factors d
+join march_madness.m_geo_factors d
   on (d.parameter,d.level::integer)=('d_div',sd.div_id)
 where sf.year in (2023)
 order by str desc);
