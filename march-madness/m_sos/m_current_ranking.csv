@@ -1,364 +1,363 @@
 rk,team,conf,str,ofs,dfs,sos
-1,Houston,aac,1.453,1.111,0.765,1.058
-2,Alabama,sec,1.439,1.249,0.868,1.091
-3,Tennessee,sec,1.433,1.107,0.773,1.078
-4,UCLA,pac_twelve,1.420,1.134,0.798,1.079
-5,Connecticut,big_east,1.398,1.183,0.846,1.076
-6,Texas,big_twelve,1.398,1.185,0.847,1.095
-7,Purdue,big_ten,1.387,1.135,0.819,1.086
-8,Kansas,big_twelve,1.378,1.177,0.854,1.107
-9,Arizona,pac_twelve,1.349,1.264,0.937,1.078
-10,Baylor,big_twelve,1.343,1.195,0.890,1.097
-11,Creighton,big_east,1.340,1.160,0.866,1.087
-12,Gonzaga,wcc,1.338,1.259,0.941,1.071
-13,Iowa St,big_twelve,1.334,1.059,0.793,1.096
-14,Marquette,big_east,1.334,1.196,0.897,1.079
-15,St Mary's CA,wcc,1.326,1.046,0.789,1.067
-16,Kansas St,big_twelve,1.326,1.161,0.875,1.088
-17,West Virginia,big_twelve,1.324,1.183,0.894,1.099
-18,Duke,acc,1.323,1.103,0.834,1.075
-19,TCU,big_twelve,1.323,1.155,0.873,1.084
-20,Arkansas,sec,1.322,1.151,0.870,1.087
-21,Rutgers,big_ten,1.318,1.050,0.797,1.079
-22,Indiana,big_ten,1.315,1.154,0.878,1.087
-23,Maryland,big_ten,1.313,1.094,0.833,1.080
-24,Illinois,big_ten,1.313,1.146,0.873,1.079
-25,Xavier,big_east,1.311,1.224,0.934,1.085
-26,Virginia,acc,1.300,1.037,0.798,1.070
-27,Auburn,sec,1.297,1.122,0.865,1.085
-28,Texas A&M,sec,1.296,1.121,0.865,1.076
-29,Kentucky,sec,1.294,1.138,0.880,1.079
-30,Iowa,big_ten,1.292,1.227,0.950,1.087
-31,Northwestern,big_ten,1.289,1.053,0.817,1.084
-32,Memphis,aac,1.289,1.188,0.922,1.073
-33,Michigan St,big_ten,1.288,1.090,0.846,1.099
-34,San Diego St,mwc,1.288,1.084,0.841,1.073
-35,Ohio St,big_ten,1.278,1.134,0.887,1.091
-36,Oklahoma St,big_twelve,1.278,1.081,0.846,1.097
-37,North Carolina,acc,1.277,1.147,0.898,1.080
-38,Penn St,big_ten,1.273,1.119,0.879,1.086
-39,Providence,big_east,1.270,1.152,0.907,1.069
-40,Utah St,mwc,1.269,1.168,0.921,1.067
-41,Michigan,big_ten,1.267,1.122,0.885,1.087
-42,Texas Tech,big_twelve,1.267,1.111,0.877,1.083
-43,NC State,acc,1.265,1.162,0.919,1.065
-44,Miami FL,acc,1.264,1.185,0.938,1.066
-45,FL Atlantic,cusa,1.264,1.126,0.891,1.034
-46,USC,pac_twelve,1.260,1.126,0.893,1.074
-47,Mississippi St,sec,1.258,1.008,0.802,1.073
-48,Boise St,mwc,1.255,1.073,0.855,1.063
-49,Clemson,acc,1.254,1.118,0.892,1.058
-50,Oregon,pac_twelve,1.253,1.107,0.883,1.084
-51,Oklahoma,big_twelve,1.252,1.072,0.857,1.102
-52,Florida,sec,1.246,1.109,0.890,1.081
-53,Seton Hall,big_east,1.244,1.055,0.848,1.082
-54,Missouri,sec,1.243,1.194,0.960,1.075
-55,Cincinnati,aac,1.241,1.125,0.906,1.061
-56,Wisconsin,big_ten,1.239,1.009,0.815,1.089
-57,Villanova,big_east,1.238,1.076,0.869,1.082
-58,Utah,pac_twelve,1.235,1.058,0.857,1.067
-59,Colorado,pac_twelve,1.234,1.089,0.883,1.077
-60,UCF,aac,1.233,1.051,0.852,1.060
-61,Washington St,pac_twelve,1.232,1.061,0.861,1.075
-62,Pittsburgh,acc,1.232,1.131,0.919,1.061
-63,VCU,a_ten,1.224,1.062,0.867,1.042
-64,Virginia Tech,acc,1.224,1.119,0.914,1.065
-65,Arizona St,pac_twelve,1.223,1.077,0.880,1.075
-66,Nevada,mwc,1.220,1.072,0.879,1.064
-67,New Mexico,mwc,1.216,1.184,0.974,1.058
-68,North Texas,cusa,1.213,0.955,0.787,1.038
-69,Drake,mvc,1.211,1.063,0.878,1.031
-70,Yale,ivy,1.209,1.067,0.883,1.023
-71,Dayton,a_ten,1.208,1.013,0.839,1.040
-72,Oral Roberts,summit,1.208,1.166,0.965,1.017
-73,Stanford,pac_twelve,1.207,1.095,0.907,1.073
-74,Vanderbilt,sec,1.206,1.118,0.927,1.083
-75,Col Charleston,caa,1.204,1.138,0.946,1.012
-76,St John's,big_east,1.203,1.158,0.963,1.071
-77,Wake Forest,acc,1.203,1.145,0.952,1.066
-78,UAB,cusa,1.202,1.148,0.955,1.036
-79,Bradley,mvc,1.202,1.034,0.860,1.034
-80,Kent,mac,1.198,1.073,0.896,1.027
-81,Iona,maac,1.198,1.102,0.920,1.015
-82,BYU,wcc,1.195,1.098,0.919,1.061
-83,Liberty,a_sun,1.194,1.047,0.877,1.019
-84,Nebraska,big_ten,1.186,1.053,0.888,1.088
-85,Sam Houston St,wac,1.183,1.004,0.849,1.032
-86,Santa Clara,wcc,1.176,1.123,0.955,1.057
-87,Indiana St,mvc,1.175,1.130,0.961,1.018
-88,Marshall,sun_belt,1.175,1.143,0.973,1.019
-89,Utah Valley,wac,1.165,1.077,0.924,1.031
-90,UNLV,mwc,1.164,1.085,0.932,1.059
-91,Hofstra,caa,1.163,1.072,0.922,1.018
-92,Toledo,mac,1.163,1.194,1.027,1.021
-93,Syracuse,acc,1.161,1.093,0.941,1.060
-94,Mississippi,sec,1.161,1.045,0.901,1.078
-95,St Louis,a_ten,1.159,1.117,0.963,1.052
-96,Washington,pac_twelve,1.157,1.062,0.918,1.074
-97,Wichita St,aac,1.156,1.036,0.896,1.052
-98,Butler,big_east,1.156,1.007,0.871,1.083
-99,Furman,southern,1.154,1.125,0.975,1.016
-100,Tulane,aac,1.152,1.155,1.003,1.048
-101,San Francisco,wcc,1.150,1.095,0.953,1.049
-102,James Madison,sun_belt,1.148,1.095,0.954,1.022
-103,Akron,mac,1.143,1.051,0.920,1.029
-104,San Jose St,mwc,1.142,1.013,0.887,1.058
-105,Temple,aac,1.140,1.040,0.912,1.064
-106,Colorado St,mwc,1.140,1.073,0.942,1.062
-107,Southern Miss,sun_belt,1.140,1.062,0.932,1.023
-108,Louisiana,sun_belt,1.138,1.102,0.968,1.028
-109,UC Irvine,big_west,1.136,1.072,0.943,1.023
-110,South Alabama,sun_belt,1.133,1.028,0.908,1.031
-111,Loy Marymount,wcc,1.132,1.072,0.947,1.054
-112,Princeton,ivy,1.131,1.068,0.944,1.022
-113,Duquesne,a_ten,1.124,1.074,0.956,1.034
-114,Belmont,mvc,1.123,1.098,0.978,1.029
-115,LSU,sec,1.123,1.036,0.923,1.072
-116,UC Santa Barbara,big_west,1.122,1.039,0.926,1.015
-117,DePaul,big_east,1.121,1.083,0.965,1.085
-118,Charlotte,cusa,1.121,0.966,0.861,1.028
-119,Colgate,patriot,1.119,1.103,0.986,1.001
-120,UNC Greensboro,southern,1.119,0.999,0.893,1.022
-121,Georgia Tech,acc,1.118,1.033,0.924,1.064
-122,S Illinois,mvc,1.117,0.959,0.858,1.028
-123,Grand Canyon,wac,1.114,1.049,0.941,1.033
-124,Georgia,sec,1.111,1.039,0.935,1.063
-125,Notre Dame,acc,1.111,1.042,0.938,1.063
-126,Fordham,a_ten,1.111,1.043,0.939,1.023
-127,Vermont,aec,1.110,1.024,0.922,1.016
-128,MTSU,cusa,1.108,1.033,0.932,1.041
-129,Davidson,a_ten,1.107,1.025,0.926,1.043
-130,Ohio,mac,1.107,1.092,0.986,1.023
-131,South Florida,aac,1.107,1.055,0.953,1.045
-132,Southern Utah,wac,1.107,1.124,1.016,1.039
-133,Troy,sun_belt,1.106,1.030,0.932,1.028
-134,Montana St,big_sky,1.105,1.012,0.916,1.020
-135,Samford,southern,1.104,1.076,0.975,1.014
-136,MA Lowell,aec,1.103,1.065,0.965,0.990
-137,Youngstown St,horizon,1.102,1.106,1.004,1.000
-138,George Mason,a_ten,1.101,1.002,0.910,1.036
-139,Richmond,a_ten,1.101,0.999,0.908,1.037
-140,Towson,caa,1.101,1.023,0.929,1.011
-141,Boston College,acc,1.100,1.010,0.918,1.063
-142,Missouri St,mvc,1.099,0.961,0.875,1.034
-143,Hawaii,big_west,1.099,0.966,0.879,1.018
-144,Cornell,ivy,1.099,1.140,1.038,1.023
-145,Fresno St,mwc,1.098,0.977,0.889,1.057
-146,CS Fullerton,big_west,1.096,0.986,0.899,1.028
-147,Penn,ivy,1.096,1.061,0.968,1.029
-148,Portland,wcc,1.091,1.102,1.010,1.053
-149,Air Force,mwc,1.091,0.984,0.902,1.042
-150,E Washington,big_sky,1.088,1.083,0.995,1.018
-151,Wyoming,mwc,1.084,1.031,0.951,1.064
-152,Kennesaw,a_sun,1.083,1.044,0.964,1.020
-153,Florida St,acc,1.081,1.061,0.982,1.073
-154,UC Riverside,big_west,1.080,1.036,0.959,1.028
-155,Ball St,mac,1.079,1.060,0.983,1.019
-156,Harvard,ivy,1.077,0.982,0.912,1.025
-157,SMU,aac,1.076,1.043,0.969,1.063
-158,Minnesota,big_ten,1.075,0.996,0.926,1.082
-159,East Carolina,aac,1.075,1.015,0.944,1.042
-160,Seattle,wac,1.075,1.018,0.947,1.032
-161,SF Austin,wac,1.074,1.046,0.974,1.026
-162,UNC Wilmington,caa,1.073,0.980,0.913,1.019
-163,St Joseph's PA,a_ten,1.073,1.052,0.981,1.033
-164,Pepperdine,wcc,1.071,1.098,1.026,1.056
-165,UC Davis,big_west,1.069,1.056,0.988,1.020
-166,Old Dominion,sun_belt,1.069,0.984,0.920,1.030
-167,Pacific,wcc,1.068,1.085,1.015,1.041
-168,Utah Tech,wac,1.068,1.061,0.994,1.034
-169,UNC Asheville,big_south,1.067,1.027,0.962,1.006
-170,Georgetown,big_east,1.065,1.054,0.990,1.076
-171,Louisiana Tech,cusa,1.065,1.018,0.957,1.038
-172,Long Beach St,big_west,1.064,1.091,1.026,1.027
-173,St Bonaventure,a_ten,1.064,0.977,0.918,1.033
-174,Chattanooga,southern,1.063,1.069,1.006,1.020
-175,Cal Baptist,wac,1.063,0.967,0.910,1.025
-176,S Dakota St,summit,1.062,1.012,0.953,1.024
-177,Longwood,big_south,1.062,0.999,0.940,1.000
-178,Massachusetts,a_ten,1.061,1.037,0.977,1.036
-179,Lipscomb,a_sun,1.061,1.045,0.985,1.013
-180,Montana,big_sky,1.061,1.004,0.947,1.021
-181,N Kentucky,horizon,1.061,0.944,0.890,1.014
-182,Oregon St,pac_twelve,1.060,0.945,0.891,1.067
-183,Drexel,caa,1.059,0.948,0.895,1.006
-184,Brown,ivy,1.058,1.009,0.953,1.021
-185,Quinnipiac,maac,1.057,1.044,0.987,1.007
-186,Northern Iowa,mvc,1.057,1.015,0.960,1.034
-187,Tarleton St,wac,1.056,0.996,0.943,1.040
-188,Cleveland St,horizon,1.056,1.001,0.948,1.006
-189,Navy,patriot,1.056,0.978,0.926,1.004
-190,Appalachian St,sun_belt,1.055,0.963,0.913,1.028
-191,Radford,big_south,1.055,0.983,0.932,1.010
-192,WKU,cusa,1.054,1.019,0.967,1.035
-193,Wright St,horizon,1.053,1.071,1.017,1.002
-194,G Washington,a_ten,1.053,1.086,1.031,1.030
-195,South Carolina,sec,1.051,0.982,0.934,1.069
-196,Stetson,a_sun,1.050,1.049,0.999,1.021
-197,St Thomas MN,summit,1.049,1.036,0.988,1.010
-198,Buffalo,mac,1.047,1.081,1.032,1.041
-199,Texas St,sun_belt,1.046,0.971,0.928,1.029
-200,UTEP,cusa,1.046,0.966,0.924,1.039
-201,San Diego,wcc,1.045,1.094,1.046,1.048
-202,E Kentucky,a_sun,1.045,1.034,0.990,1.023
-203,New Mexico St,wac,1.045,1.045,1.001,1.042
-204,La Salle,a_ten,1.044,1.021,0.978,1.034
-205,FL Gulf Coast,a_sun,1.044,1.007,0.965,1.017
-206,Detroit,horizon,1.044,1.072,1.027,1.015
-207,TAM C. Christi,southland,1.043,1.059,1.015,0.991
-208,Siena,maac,1.043,0.993,0.953,1.010
-209,Bryant,aec,1.042,1.078,1.034,1.012
-210,Rider,maac,1.042,1.002,0.962,1.009
-211,Murray St,mvc,1.041,1.023,0.982,1.031
-212,Ga Southern,sun_belt,1.038,0.975,0.939,1.022
-213,NC Central,meac,1.034,0.988,0.955,1.000
-214,Rice,cusa,1.033,1.072,1.038,1.036
-215,Gardner Webb,big_south,1.032,0.956,0.926,1.009
-216,Weber St,big_sky,1.032,0.954,0.924,1.022
-217,Queens NC,a_sun,1.031,1.070,1.038,1.010
-218,Abilene Chr,wac,1.030,1.036,1.005,1.034
-219,Norfolk St,meac,1.029,1.014,0.985,0.998
-220,Wofford,southern,1.028,1.028,0.999,1.020
-221,Florida Intl,cusa,1.028,1.034,1.005,1.031
-222,N Dakota St,summit,1.028,1.027,0.999,1.024
-223,Mercer,southern,1.026,0.953,0.929,1.016
-224,Grambling,swac,1.024,0.948,0.926,0.985
-225,Northwestern LA,southland,1.023,1.018,0.995,0.997
-226,Rhode Island,a_ten,1.021,0.970,0.950,1.037
-227,Northern Arizona,big_sky,1.019,1.032,1.012,1.029
-228,WI Milwaukee,horizon,1.018,1.053,1.034,1.013
-229,SIUE,ovc,1.018,1.014,0.997,0.999
-230,Delaware,caa,1.016,1.001,0.985,1.016
-231,PFW,horizon,1.016,1.008,0.992,1.009
-232,Loyola-Chicago,a_ten,1.015,0.985,0.970,1.037
-233,N Illinois,mac,1.014,1.013,0.999,1.024
-234,N Colorado,big_sky,1.014,1.061,1.047,1.028
-235,W Carolina,southern,1.014,1.005,0.991,1.015
-236,ETSU,southern,1.013,0.976,0.963,1.014
-237,Campbell,big_south,1.013,0.975,0.963,1.008
-238,Robert Morris,horizon,1.010,0.960,0.951,1.005
-239,CS Sacramento,big_sky,1.008,0.947,0.939,1.022
-240,Louisville,acc,1.008,0.987,0.979,1.072
-241,California,pac_twelve,1.007,0.920,0.913,1.078
-242,Portland St,big_sky,1.007,1.067,1.059,1.026
-243,SE Missouri St,ovc,1.006,1.058,1.052,1.002
-244,Howard,meac,1.006,1.017,1.012,1.001
-245,UMBC,aec,1.005,1.030,1.025,0.999
-246,Army,patriot,1.001,1.017,1.016,0.996
-247,Illinois St,mvc,0.999,0.959,0.960,1.021
-248,North Florida,a_sun,0.998,1.048,1.050,1.020
-249,Winthrop,big_south,0.998,1.036,1.038,1.015
-250,Jacksonville,a_sun,0.997,0.903,0.905,1.020
-251,Niagara,maac,0.997,0.934,0.936,1.012
-252,Southern Indiana,ovc,0.996,1.039,1.043,0.999
-253,Canisius,maac,0.996,0.993,0.997,1.017
-254,Morehead St,ovc,0.996,0.935,0.939,1.007
-255,Jacksonville St,a_sun,0.996,0.970,0.974,1.020
-256,Fairfield,maac,0.995,0.940,0.945,1.012
-257,Miami OH,mac,0.994,1.012,1.019,1.025
-258,W Illinois,summit,0.992,0.999,1.007,1.010
-259,UT Arlington,wac,0.991,0.948,0.956,1.041
-260,Dartmouth,ivy,0.990,0.990,1.000,1.022
-261,Idaho St,big_sky,0.989,0.964,0.975,1.015
-262,TN Martin,ovc,0.989,1.042,1.054,0.997
-263,Bowling Green,mac,0.989,1.041,1.053,1.017
-264,Lafayette,patriot,0.989,0.894,0.904,1.012
-265,UTRGV,wac,0.988,1.062,1.075,1.027
-266,Valparaiso,mvc,0.987,0.974,0.987,1.025
-267,North Dakota,summit,0.987,1.005,1.018,1.018
-268,Boston Univ,patriot,0.986,0.943,0.956,1.001
-269,American Univ,patriot,0.986,0.930,0.943,0.995
-270,IL Chicago,mvc,0.984,0.982,0.998,1.022
-271,North Alabama,a_sun,0.984,1.024,1.041,1.011
-272,Georgia St,sun_belt,0.984,0.957,0.973,1.030
-273,SC Upstate,big_south,0.983,0.968,0.985,1.013
-274,UC San Diego,big_west,0.982,0.969,0.986,1.026
-275,Bellarmine,a_sun,0.982,0.929,0.947,1.028
-276,SE Louisiana,southland,0.981,1.024,1.044,0.998
-277,Oakland,horizon,0.980,1.022,1.042,1.019
-278,Tennessee St,ovc,0.980,1.030,1.051,0.991
-279,Mt St Mary's,maac,0.979,0.934,0.954,1.013
-280,Nicholls St,southland,0.978,1.008,1.030,1.005
-281,Maine,aec,0.978,0.954,0.976,1.011
-282,Tennessee Tech,ovc,0.976,0.982,1.006,1.006
-283,MD E Shore,meac,0.974,0.947,0.973,1.004
-284,Marist,maac,0.973,0.934,0.959,1.005
-285,Arkansas St,sun_belt,0.973,0.927,0.953,1.016
-286,Lehigh,patriot,0.973,0.980,1.007,1.004
-287,Coastal Car,sun_belt,0.971,1.013,1.043,1.024
-288,New Hampshire,aec,0.970,0.917,0.945,1.006
-289,Tulsa,aac,0.970,0.983,1.013,1.054
-290,ULM,sun_belt,0.969,0.939,0.970,1.031
-291,Denver,summit,0.969,1.001,1.033,1.003
-292,UT San Antonio,cusa,0.965,1.010,1.046,1.035
-293,Southern Univ,swac,0.964,0.977,1.013,0.994
-294,Charleston So,big_south,0.964,0.999,1.037,1.010
-295,Idaho,big_sky,0.963,0.982,1.019,1.010
-296,W Michigan,mac,0.963,0.990,1.028,1.025
-297,Bucknell,patriot,0.963,0.957,0.994,0.999
-298,Prairie View,swac,0.960,0.925,0.964,0.996
-299,Alcorn St,swac,0.960,0.967,1.007,0.996
-300,E Michigan,mac,0.960,1.025,1.067,1.027
-301,Cal Poly,big_west,0.959,0.884,0.922,1.027
-302,High Point,big_south,0.959,1.024,1.068,1.007
-303,Missouri KC,summit,0.959,0.908,0.947,1.019
-304,South Dakota,summit,0.958,0.982,1.025,1.018
-305,Manhattan,maac,0.958,0.951,0.993,1.009
-306,Northeastern,caa,0.958,0.953,0.995,1.015
-307,Binghamton,aec,0.955,0.951,0.995,1.007
-308,CS Bakersfield,big_west,0.955,0.880,0.922,1.022
-309,St Peter's,maac,0.953,0.895,0.939,1.007
-310,TX A&M Commerce,southland,0.951,0.966,1.016,0.993
-311,NE Omaha,summit,0.951,0.986,1.037,1.026
-312,F Dickinson,nec,0.951,1.041,1.095,0.974
-313,NC A&T,caa,0.950,0.992,1.045,1.015
-314,Ark Little Rock,ovc,0.949,1.037,1.093,1.001
-315,William & Mary,caa,0.948,0.948,1.000,1.014
-316,Chicago St,ind,0.948,0.952,1.004,1.016
-317,Wagner,nec,0.943,0.869,0.922,0.976
-318,TX Southern,swac,0.943,0.954,1.012,1.005
-319,Citadel,southern,0.941,0.960,1.021,1.017
-320,C Michigan,mac,0.940,0.931,0.991,1.023
-321,Merrimack,nec,0.939,0.877,0.933,0.986
-322,Loyola MD,patriot,0.936,0.944,1.008,1.004
-323,Jackson St,swac,0.935,0.959,1.026,1.003
-324,NJIT,aec,0.932,0.942,1.010,1.005
-325,Morgan St,meac,0.932,0.961,1.032,0.999
-326,Alabama A&M,swac,0.931,0.946,1.016,0.990
-327,CS Northridge,big_west,0.931,0.909,0.976,1.020
-328,Stonehill,nec,0.930,0.928,0.999,0.989
-329,Stony Brook,caa,0.930,0.902,0.970,1.014
-330,Sacred Heart,nec,0.929,0.972,1.046,0.976
-331,Elon,caa,0.928,0.937,1.010,1.013
-332,Austin Peay,a_sun,0.924,0.919,0.994,1.022
-333,E Illinois,ovc,0.923,0.936,1.014,1.004
-334,St Francis PA,nec,0.919,0.988,1.075,0.984
-335,Cent Arkansas,a_sun,0.919,1.015,1.104,1.018
-336,Central Conn,nec,0.917,0.919,1.003,0.984
-337,Lindenwood,ovc,0.916,0.936,1.022,1.005
-338,SUNY Albany,aec,0.914,0.957,1.047,1.012
-339,McNeese St,southland,0.913,0.945,1.035,1.007
-340,Holy Cross,patriot,0.911,0.943,1.035,1.003
-341,Ark Pine Bluff,swac,0.911,0.935,1.027,1.003
-342,New Orleans,southland,0.910,0.997,1.096,0.996
-343,Columbia,ivy,0.909,0.948,1.043,1.023
-344,Presbyterian,big_south,0.908,0.892,0.983,1.008
-345,Coppin St,meac,0.908,1.013,1.116,1.014
-346,Evansville,mvc,0.905,0.932,1.030,1.031
-347,Hampton,caa,0.904,0.970,1.073,1.011
-348,Incarnate Word,southland,0.901,0.935,1.038,0.990
-349,VMI,southern,0.899,0.955,1.062,1.019
-350,Monmouth NJ,caa,0.891,0.917,1.030,1.023
-351,S Carolina St,meac,0.888,1.006,1.132,1.011
-352,Houston Chr,southland,0.883,1.013,1.147,0.997
-353,St Francis NY,nec,0.879,0.880,1.002,0.973
-354,Alabama St,swac,0.876,0.892,1.019,0.997
-355,Lamar,southland,0.874,0.915,1.048,0.995
-356,Bethune-Cookman,swac,0.868,0.941,1.084,0.989
-357,IUPUI,horizon,0.862,0.930,1.078,1.006
-358,Delaware St,meac,0.857,0.900,1.051,1.007
-359,Florida A&M,swac,0.849,0.852,1.004,1.004
-360,MS Valley St,swac,0.846,0.882,1.042,1.007
-361,WI Green Bay,horizon,0.834,0.867,1.040,1.018
-362,LIU Brooklyn,nec,0.806,0.918,1.139,0.999
-363,Hartford,ind,0.793,0.848,1.069,0.992
+1,Houston,big_twelve,1.529,1.114,0.728,1.093
+2,Connecticut,big_east,1.459,1.194,0.818,1.076
+3,Iowa St,big_twelve,1.449,1.143,0.788,1.085
+4,Purdue,big_ten,1.449,1.230,0.849,1.099
+5,Arizona,pac_twelve,1.439,1.268,0.881,1.085
+6,Auburn,sec,1.427,1.220,0.855,1.077
+7,Tennessee,sec,1.405,1.173,0.835,1.090
+8,North Carolina,acc,1.387,1.207,0.870,1.088
+9,BYU,big_twelve,1.382,1.215,0.879,1.083
+10,Duke,acc,1.380,1.180,0.855,1.078
+11,Baylor,big_twelve,1.379,1.188,0.862,1.100
+12,Creighton,big_east,1.373,1.179,0.859,1.084
+13,Illinois,big_ten,1.372,1.249,0.910,1.087
+14,Alabama,sec,1.369,1.313,0.959,1.097
+15,Marquette,big_east,1.365,1.185,0.868,1.095
+16,Michigan St,big_ten,1.344,1.094,0.814,1.095
+17,Kansas,big_twelve,1.340,1.145,0.855,1.102
+18,St Mary's CA,wcc,1.332,1.053,0.791,1.052
+19,Wisconsin,big_ten,1.328,1.137,0.857,1.100
+20,Texas Tech,big_twelve,1.320,1.141,0.864,1.091
+21,Texas,big_twelve,1.319,1.147,0.870,1.088
+22,Gonzaga,wcc,1.318,1.192,0.904,1.050
+23,Kentucky,sec,1.316,1.274,0.968,1.077
+24,TCU,big_twelve,1.315,1.166,0.886,1.078
+25,St John's,big_east,1.311,1.178,0.898,1.086
+26,Cincinnati,big_twelve,1.310,1.111,0.848,1.086
+27,Nebraska,big_ten,1.302,1.142,0.877,1.077
+28,Oklahoma,big_twelve,1.302,1.120,0.860,1.083
+29,Wake Forest,acc,1.298,1.156,0.890,1.075
+30,Villanova,big_east,1.298,1.053,0.811,1.088
+31,Colorado,pac_twelve,1.297,1.152,0.889,1.075
+32,New Mexico,mwc,1.296,1.193,0.921,1.062
+33,Pittsburgh,acc,1.295,1.111,0.858,1.072
+34,Florida,sec,1.295,1.226,0.947,1.082
+35,Mississippi St,sec,1.293,1.105,0.854,1.084
+36,Clemson,acc,1.292,1.134,0.878,1.083
+37,San Diego St,mwc,1.292,1.087,0.841,1.078
+38,Ohio St,big_ten,1.286,1.106,0.860,1.083
+39,Utah,pac_twelve,1.282,1.151,0.897,1.084
+40,FL Atlantic,aac,1.277,1.169,0.915,1.061
+41,Washington St,pac_twelve,1.276,1.080,0.846,1.068
+42,Northwestern,big_ten,1.269,1.085,0.855,1.079
+43,Iowa,big_ten,1.268,1.220,0.962,1.087
+44,UCF,big_twelve,1.268,1.077,0.850,1.085
+45,Texas A&M,sec,1.267,1.104,0.871,1.084
+46,Dayton,a_ten,1.267,1.097,0.866,1.062
+47,Boise St,mwc,1.262,1.103,0.874,1.072
+48,Indiana St,mvc,1.262,1.186,0.940,1.040
+49,Nevada,mwc,1.261,1.104,0.876,1.057
+50,Providence,big_east,1.257,1.080,0.859,1.083
+51,Colorado St,mwc,1.256,1.097,0.874,1.073
+52,Butler,big_east,1.250,1.124,0.899,1.086
+53,Virginia Tech,acc,1.249,1.125,0.901,1.078
+54,Kansas St,big_twelve,1.245,1.072,0.861,1.095
+55,South Carolina,sec,1.245,1.052,0.845,1.069
+56,Xavier,big_east,1.244,1.145,0.921,1.096
+57,Utah St,mwc,1.243,1.134,0.912,1.058
+58,Oregon,pac_twelve,1.243,1.112,0.895,1.079
+59,Virginia,acc,1.242,0.949,0.765,1.073
+60,NC State,acc,1.242,1.126,0.906,1.078
+61,Seton Hall,big_east,1.240,1.079,0.870,1.083
+62,Maryland,big_ten,1.239,1.030,0.831,1.078
+63,Washington,pac_twelve,1.235,1.168,0.946,1.078
+64,SMU,aac,1.235,1.090,0.883,1.049
+65,Drake,mvc,1.234,1.116,0.905,1.043
+66,Minnesota,big_ten,1.220,1.101,0.902,1.070
+67,Penn St,big_ten,1.217,1.116,0.917,1.079
+68,Bradley,mvc,1.217,1.073,0.882,1.049
+69,San Francisco,wcc,1.215,1.075,0.885,1.032
+70,Boston College,acc,1.215,1.104,0.908,1.073
+71,Grand Canyon,wac,1.212,1.098,0.906,1.024
+72,Miami FL,acc,1.211,1.112,0.918,1.075
+73,Memphis,aac,1.207,1.155,0.957,1.059
+74,North Texas,aac,1.207,0.994,0.824,1.057
+75,Florida St,acc,1.207,1.129,0.936,1.085
+76,James Madison,sun_belt,1.205,1.124,0.933,1.010
+77,USC,pac_twelve,1.201,1.092,0.909,1.085
+78,LSU,sec,1.198,1.113,0.930,1.071
+79,Mississippi,sec,1.196,1.100,0.919,1.076
+80,Syracuse,acc,1.193,1.119,0.939,1.086
+81,Georgia,sec,1.193,1.089,0.913,1.079
+82,Princeton,ivy,1.192,1.084,0.909,1.028
+83,Richmond,a_ten,1.192,1.042,0.874,1.044
+84,Rutgers,big_ten,1.189,0.994,0.836,1.085
+85,UNLV,mwc,1.188,1.049,0.883,1.067
+86,VCU,a_ten,1.188,1.035,0.871,1.054
+87,Indiana,big_ten,1.188,1.086,0.914,1.092
+88,South Florida,aac,1.187,1.077,0.907,1.039
+89,McNeese St,southland,1.183,1.064,0.899,0.998
+90,UC Irvine,big_west,1.182,1.073,0.908,1.028
+91,Massachusetts,a_ten,1.180,1.097,0.930,1.040
+92,Duquesne,a_ten,1.177,1.029,0.874,1.056
+93,UCLA,pac_twelve,1.175,0.990,0.843,1.075
+94,Loyola-Chicago,a_ten,1.174,1.041,0.887,1.046
+95,Oklahoma St,big_twelve,1.174,1.061,0.904,1.083
+96,Appalachian St,sun_belt,1.173,1.042,0.888,1.023
+97,St Bonaventure,a_ten,1.173,1.059,0.903,1.046
+98,Stanford,pac_twelve,1.173,1.108,0.945,1.074
+99,St Joseph's PA,a_ten,1.171,1.086,0.927,1.042
+100,George Mason,a_ten,1.169,1.019,0.872,1.045
+101,Yale,ivy,1.161,1.033,0.889,1.034
+102,Arkansas,sec,1.160,1.117,0.963,1.080
+103,Samford,southern,1.160,1.158,0.999,1.017
+104,Louisiana Tech,cusa,1.158,1.024,0.884,1.026
+105,Michigan,big_ten,1.158,1.088,0.940,1.100
+106,Santa Clara,wcc,1.155,1.089,0.943,1.044
+107,UAB,aac,1.152,1.100,0.955,1.055
+108,Charlotte,aac,1.147,0.992,0.865,1.051
+109,Cornell,ivy,1.144,1.138,0.995,1.026
+110,Georgia Tech,acc,1.143,1.060,0.928,1.083
+111,Notre Dame,acc,1.142,0.969,0.849,1.080
+112,California,pac_twelve,1.142,1.075,0.942,1.077
+113,Col Charleston,caa,1.139,1.119,0.982,1.022
+114,West Virginia,big_twelve,1.137,1.072,0.942,1.100
+115,Northern Iowa,mvc,1.137,1.046,0.920,1.051
+116,S Illinois,mvc,1.136,1.018,0.896,1.038
+117,Akron,mac,1.133,1.020,0.900,1.023
+118,Arizona St,pac_twelve,1.132,1.036,0.915,1.086
+119,Vermont,aec,1.132,0.980,0.866,1.018
+120,Tulane,aac,1.131,1.148,1.016,1.052
+121,Davidson,a_ten,1.128,1.003,0.889,1.053
+122,Missouri,sec,1.126,1.053,0.935,1.075
+123,Belmont,mvc,1.126,1.101,0.978,1.043
+124,Hofstra,caa,1.123,1.027,0.915,1.027
+125,W Carolina,southern,1.123,1.040,0.926,1.020
+126,Seattle,wac,1.119,1.009,0.902,1.025
+127,UC San Diego,big_west,1.118,1.040,0.931,1.021
+128,UNC Wilmington,caa,1.116,1.054,0.945,1.022
+129,Wichita St,aac,1.114,1.035,0.929,1.054
+130,Drexel,caa,1.114,1.002,0.900,1.020
+131,Morehead St,ovc,1.113,1.004,0.902,1.006
+132,Toledo,mac,1.112,1.112,1.000,1.027
+133,Oregon St,pac_twelve,1.110,1.010,0.910,1.079
+134,UT Arlington,wac,1.106,1.084,0.980,1.037
+135,Liberty,cusa,1.106,1.018,0.920,1.027
+136,WKU,cusa,1.106,1.112,1.006,1.016
+137,Troy,sun_belt,1.106,1.059,0.958,1.020
+138,Oakland,horizon,1.105,1.045,0.946,1.026
+139,Youngstown St,horizon,1.103,1.060,0.961,1.010
+140,High Point,big_south,1.102,1.109,1.006,1.008
+141,Ohio,mac,1.100,1.052,0.957,1.014
+142,S Dakota St,summit,1.098,1.055,0.961,1.022
+143,Missouri St,mvc,1.098,1.017,0.926,1.041
+144,Colgate,patriot,1.097,0.992,0.905,1.005
+145,Arkansas St,sun_belt,1.096,1.090,0.995,1.030
+146,Furman,southern,1.095,1.078,0.985,1.027
+147,Chattanooga,southern,1.093,1.054,0.965,1.018
+148,St Thomas MN,summit,1.092,0.983,0.901,1.009
+149,Towson,caa,1.091,0.942,0.863,1.026
+150,UNC Greensboro,southern,1.089,1.018,0.935,1.023
+151,Wyoming,mwc,1.089,1.043,0.958,1.059
+152,Tarleton St,wac,1.088,1.025,0.942,1.030
+153,Murray St,mvc,1.088,1.001,0.920,1.045
+154,Sam Houston St,cusa,1.087,1.019,0.938,1.026
+155,Weber St,big_sky,1.086,1.021,0.940,1.016
+156,Louisiana,sun_belt,1.085,1.038,0.956,1.023
+157,Georgetown,big_east,1.085,1.056,0.973,1.076
+158,Louisville,acc,1.085,1.061,0.978,1.075
+159,PFW,horizon,1.083,1.059,0.978,1.003
+160,E Washington,big_sky,1.083,1.106,1.022,1.021
+161,Kent,mac,1.081,1.025,0.948,1.025
+162,MA Lowell,aec,1.080,1.051,0.973,1.007
+163,Fairfield,maac,1.079,1.056,0.979,1.004
+164,Wright St,horizon,1.078,1.161,1.077,1.018
+165,Loy Marymount,wcc,1.078,1.017,0.943,1.036
+166,Montana,big_sky,1.078,1.050,0.974,1.016
+167,Vanderbilt,sec,1.078,1.001,0.929,1.080
+168,Tulsa,aac,1.075,1.039,0.967,1.032
+169,Delaware,caa,1.075,1.018,0.947,1.015
+170,Hawaii,big_west,1.074,0.998,0.929,1.022
+171,Temple,aac,1.073,0.999,0.932,1.046
+172,East Carolina,aac,1.072,0.987,0.921,1.045
+173,Long Beach St,big_west,1.072,1.081,1.008,1.025
+174,UC Davis,big_west,1.067,0.989,0.927,1.020
+175,Fordham,a_ten,1.067,1.003,0.940,1.043
+176,G Washington,a_ten,1.065,1.065,1.000,1.034
+177,Lipscomb,a_sun,1.064,1.090,1.024,1.012
+178,Longwood,big_south,1.064,0.999,0.939,1.003
+179,Illinois St,mvc,1.062,0.950,0.895,1.038
+180,IL Chicago,mvc,1.062,0.992,0.934,1.043
+181,Quinnipiac,maac,1.061,1.061,1.000,1.001
+182,SF Austin,wac,1.060,1.007,0.950,1.023
+183,La Salle,a_ten,1.060,1.017,0.960,1.039
+184,Stony Brook,caa,1.059,1.022,0.965,1.024
+185,St Louis,a_ten,1.058,1.088,1.028,1.057
+186,UNC Asheville,big_south,1.058,1.040,0.983,1.020
+187,UTEP,cusa,1.057,0.984,0.930,1.028
+188,Utah Valley,wac,1.056,0.969,0.918,1.033
+189,Bryant,aec,1.056,1.053,0.997,1.020
+190,Winthrop,big_south,1.056,1.015,0.961,1.017
+191,ETSU,southern,1.056,0.992,0.940,1.024
+192,Pepperdine,wcc,1.055,1.036,0.981,1.039
+193,Monmouth NJ,caa,1.051,1.023,0.973,1.023
+194,Rhode Island,a_ten,1.049,1.046,0.997,1.051
+195,Ark Little Rock,ovc,1.048,1.048,1.000,0.996
+196,Rice,aac,1.048,1.010,0.964,1.049
+197,Cleveland St,horizon,1.048,1.033,0.986,1.013
+198,Brown,ivy,1.048,1.002,0.957,1.030
+199,Jacksonville St,cusa,1.046,0.954,0.912,1.020
+200,St Peter's,maac,1.046,0.920,0.880,1.007
+201,N Kentucky,horizon,1.045,1.008,0.965,1.017
+202,Wofford,southern,1.044,1.015,0.972,1.029
+203,Evansville,mvc,1.042,1.007,0.966,1.041
+204,Penn,ivy,1.042,1.018,0.977,1.040
+205,Texas St,sun_belt,1.042,0.959,0.921,1.035
+206,Cal Baptist,wac,1.042,0.949,0.911,1.020
+207,UC Santa Barbara,big_west,1.040,1.019,0.980,1.019
+208,TAM C. Christi,southland,1.039,0.987,0.950,1.000
+209,Georgia St,sun_belt,1.038,1.026,0.988,1.025
+210,N Colorado,big_sky,1.035,1.074,1.037,1.009
+211,UT San Antonio,aac,1.034,1.078,1.043,1.034
+212,Marist,maac,1.034,0.915,0.885,0.997
+213,Harvard,ivy,1.033,0.992,0.960,1.028
+214,Missouri KC,summit,1.033,0.979,0.948,1.016
+215,Fresno St,mwc,1.031,0.979,0.949,1.054
+216,Mercer,southern,1.031,0.988,0.958,1.025
+217,TN Martin,ovc,1.031,1.088,1.056,1.001
+218,Bowling Green,mac,1.030,0.996,0.968,1.009
+219,Iona,maac,1.029,0.995,0.967,1.008
+220,Stetson,a_sun,1.029,1.031,1.002,1.017
+221,San Jose St,mwc,1.028,0.993,0.966,1.053
+222,Rider,maac,1.028,0.999,0.972,1.017
+223,WI Milwaukee,horizon,1.027,1.070,1.042,1.013
+224,UC Riverside,big_west,1.027,0.993,0.966,1.029
+225,Columbia,ivy,1.027,1.034,1.007,1.018
+226,Merrimack,nec,1.026,0.938,0.915,0.993
+227,CS Northridge,big_west,1.026,1.032,1.007,1.012
+228,Abilene Chr,wac,1.025,0.994,0.970,1.026
+229,Montana St,big_sky,1.024,1.011,0.987,1.015
+230,Gardner Webb,big_south,1.024,1.007,0.983,1.027
+231,Lamar,southland,1.023,1.020,0.997,0.995
+232,North Dakota,summit,1.023,1.010,0.988,1.008
+233,E Kentucky,a_sun,1.021,1.034,1.012,1.015
+234,CS Fullerton,big_west,1.019,0.955,0.937,1.030
+235,Air Force,mwc,1.018,0.950,0.933,1.043
+236,Austin Peay,a_sun,1.018,0.996,0.979,1.014
+237,WI Green Bay,horizon,1.018,0.952,0.936,1.016
+238,Marshall,sun_belt,1.017,1.018,1.001,1.031
+239,San Diego,wcc,1.017,1.029,1.012,1.037
+240,Northeastern,caa,1.017,0.992,0.976,1.022
+241,South Alabama,sun_belt,1.016,1.005,0.989,1.020
+242,Southern Miss,sun_belt,1.016,0.984,0.969,1.022
+243,SUNY Albany,aec,1.015,1.077,1.060,1.011
+244,Miami OH,mac,1.015,0.975,0.960,1.016
+245,New Hampshire,aec,1.015,1.012,0.997,1.020
+246,Maine,aec,1.014,0.925,0.913,1.013
+247,CS Bakersfield,big_west,1.014,0.947,0.935,1.023
+248,Radford,big_south,1.013,0.975,0.962,1.016
+249,Ball St,mac,1.012,0.992,0.980,1.007
+250,Denver,summit,1.011,1.082,1.070,1.014
+251,Southern Utah,wac,1.011,1.038,1.027,1.026
+252,Citadel,southern,1.011,0.970,0.959,1.022
+253,FL Gulf Coast,a_sun,1.010,0.958,0.949,1.018
+254,North Alabama,a_sun,1.008,1.017,1.009,1.012
+255,NE Omaha,summit,1.008,1.003,0.996,1.014
+256,Lehigh,patriot,1.006,0.997,0.991,1.003
+257,North Florida,a_sun,1.006,1.017,1.011,1.012
+258,Oral Roberts,summit,1.005,1.010,1.005,1.026
+259,Portland St,big_sky,1.005,0.986,0.981,1.011
+260,Mt St Mary's,maac,1.004,0.996,0.992,1.001
+261,Nicholls St,southland,1.003,0.987,0.984,1.010
+262,N Dakota St,summit,1.002,0.989,0.986,1.023
+263,Idaho St,big_sky,1.001,0.954,0.953,1.011
+264,Kennesaw,a_sun,0.999,1.092,1.092,1.007
+265,Canisius,maac,0.997,0.968,0.972,1.014
+266,Norfolk St,meac,0.995,0.968,0.973,0.992
+267,Niagara,maac,0.993,0.991,0.999,1.001
+268,C Michigan,mac,0.992,0.922,0.929,1.019
+269,Central Conn,nec,0.991,0.962,0.971,0.984
+270,DePaul,big_east,0.991,0.993,1.001,1.094
+271,Bucknell,patriot,0.991,0.933,0.941,1.005
+272,UMBC,aec,0.990,1.075,1.085,1.007
+273,Ga Southern,sun_belt,0.990,1.020,1.031,1.025
+274,W Illinois,ovc,0.989,0.918,0.928,1.001
+275,Queens NC,a_sun,0.989,1.064,1.076,1.020
+276,Florida Intl,cusa,0.987,1.013,1.026,1.025
+277,Old Dominion,sun_belt,0.985,0.995,1.010,1.030
+278,Portland,wcc,0.985,1.007,1.022,1.044
+279,American Univ,patriot,0.985,0.945,0.960,0.992
+280,SIUE,ovc,0.984,0.972,0.987,1.000
+281,N Illinois,mac,0.983,1.004,1.021,1.031
+282,Presbyterian,big_south,0.983,0.986,1.003,1.006
+283,Tennessee St,ovc,0.980,0.974,0.994,0.998
+284,Utah Tech,wac,0.980,0.994,1.015,1.027
+285,NC Central,meac,0.980,0.981,1.002,0.986
+286,MTSU,cusa,0.979,0.921,0.941,1.034
+287,Binghamton,aec,0.978,0.968,0.990,1.012
+288,W Michigan,mac,0.978,0.983,1.005,1.019
+289,Valparaiso,mvc,0.977,0.965,0.988,1.042
+290,New Mexico St,cusa,0.975,0.947,0.971,1.040
+291,Howard,meac,0.973,1.008,1.036,0.991
+292,Jacksonville,a_sun,0.973,0.952,0.978,1.013
+293,Southern Univ,swac,0.973,0.936,0.962,1.001
+294,Robert Morris,horizon,0.970,0.981,1.011,1.015
+295,Boston Univ,patriot,0.969,0.926,0.955,0.994
+296,SC Upstate,big_south,0.968,0.957,0.988,1.019
+297,Sacred Heart,nec,0.967,0.995,1.028,0.988
+298,ULM,sun_belt,0.966,0.957,0.991,1.026
+299,TX Southern,swac,0.962,0.941,0.978,0.994
+300,Le Moyne,nec,0.961,0.963,1.002,0.987
+301,Campbell,caa,0.960,0.954,0.994,1.008
+302,Wagner,nec,0.958,0.861,0.899,0.987
+303,Elon,caa,0.956,0.985,1.030,1.010
+304,William & Mary,caa,0.954,0.957,1.004,1.009
+305,Coastal Car,sun_belt,0.953,0.988,1.036,1.022
+306,E Illinois,ovc,0.952,0.927,0.973,1.005
+307,Navy,patriot,0.951,0.918,0.966,0.988
+308,CS Sacramento,big_sky,0.951,0.912,0.960,1.018
+309,SE Louisiana,southland,0.950,0.924,0.972,1.006
+310,Bellarmine,a_sun,0.950,0.939,0.988,1.025
+311,Grambling,swac,0.949,0.906,0.955,0.999
+312,Chicago St,ind,0.948,0.906,0.955,1.019
+313,South Dakota,summit,0.948,1.012,1.067,1.011
+314,Delaware St,meac,0.946,0.932,0.985,0.991
+315,Lafayette,patriot,0.945,0.886,0.938,1.007
+316,Idaho,big_sky,0.945,0.929,0.983,1.013
+317,Jackson St,swac,0.945,0.973,1.030,0.995
+318,Alcorn St,swac,0.943,0.986,1.045,1.003
+319,Northern Arizona,big_sky,0.941,0.958,1.017,1.015
+320,E Michigan,mac,0.939,0.923,0.983,1.012
+321,Alabama St,swac,0.934,0.901,0.965,0.996
+322,S Carolina St,meac,0.933,0.954,1.023,1.000
+323,Charleston So,big_south,0.928,0.915,0.985,1.027
+324,Bethune-Cookman,swac,0.928,0.951,1.026,0.985
+325,Southern Indiana,ovc,0.926,0.944,1.020,1.009
+326,F Dickinson,nec,0.921,0.995,1.081,0.989
+327,UTRGV,wac,0.919,0.967,1.052,1.029
+328,Northwestern LA,southland,0.915,0.940,1.027,1.004
+329,Dartmouth,ivy,0.915,0.885,0.967,1.032
+330,Cal Poly,big_west,0.913,0.900,0.986,1.024
+331,NJIT,aec,0.912,0.927,1.016,1.015
+332,Tennessee Tech,ovc,0.911,0.908,0.997,1.007
+333,Manhattan,maac,0.910,0.930,1.021,1.014
+334,Cent Arkansas,a_sun,0.908,0.965,1.062,1.009
+335,TX A&M Commerce,southland,0.908,0.902,0.994,1.011
+336,Buffalo,mac,0.907,0.950,1.047,1.024
+337,Army,patriot,0.907,0.846,0.933,0.992
+338,Ark Pine Bluff,swac,0.905,1.023,1.131,0.993
+339,Hampton,caa,0.904,0.953,1.054,1.010
+340,Alabama A&M,swac,0.902,0.936,1.038,0.993
+341,Prairie View,swac,0.900,0.946,1.051,0.997
+342,Incarnate Word,southland,0.899,0.963,1.071,0.996
+343,New Orleans,southland,0.896,0.981,1.095,1.007
+344,Loyola MD,patriot,0.896,0.893,0.997,1.001
+345,NC A&T,caa,0.896,0.938,1.047,1.017
+346,Detroit,horizon,0.890,0.924,1.039,1.023
+347,Holy Cross,patriot,0.889,0.935,1.051,0.997
+348,Morgan St,meac,0.886,0.962,1.086,1.001
+349,Florida A&M,swac,0.883,0.906,1.027,1.011
+350,LIU Brooklyn,nec,0.879,0.927,1.054,0.998
+351,SE Missouri St,ovc,0.877,0.908,1.035,1.005
+352,Pacific,wcc,0.877,0.922,1.052,1.034
+353,Lindenwood,ovc,0.871,0.895,1.027,1.002
+354,Houston Chr,southland,0.868,0.964,1.111,1.018
+355,St Francis PA,nec,0.863,0.886,1.026,0.995
+356,MD E Shore,meac,0.863,0.872,1.010,0.999
+357,VMI,southern,0.860,0.952,1.107,1.025
+358,Siena,maac,0.856,0.864,1.010,1.013
+359,Stonehill,nec,0.852,0.891,1.046,1.005
+360,IUPUI,horizon,0.845,0.902,1.067,1.013
+361,Coppin St,meac,0.814,0.818,1.006,0.999
+362,MS Valley St,swac,0.766,0.794,1.036,1.013

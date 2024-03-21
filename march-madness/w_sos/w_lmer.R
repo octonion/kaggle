@@ -28,7 +28,7 @@ r.team_score::float as ps
 from march_madness.w_results r
 
 where
-    r.season between 2016 and 2023
+    r.season between 2016 and 2024
 ;")
 
 games <- fetch(query,n=-1)

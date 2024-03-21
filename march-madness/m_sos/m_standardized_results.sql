@@ -86,7 +86,7 @@ l_score as opponent_score,
 num_ot as game_length
 from march_madness.m_secondary_tourney_compact_results
 where
-season between 2002 and 2023
+season between 2002 and 2024
 );
 
 insert into march_madness.m_results
@@ -156,7 +156,7 @@ w_score as opponent_score,
 num_ot as game_length
 from march_madness.m_secondary_tourney_compact_results
 where
-season between 2002 and 2023
+season between 2002 and 2024
 );
 
 update march_madness.m_results

@@ -64,7 +64,7 @@ r.opponent_conf_id,
 r.season,
 r.field
 from march_madness.w_results r
-where r.season between 2002 and 2023
+where r.season between 2002 and 2024
 );
 
 update r

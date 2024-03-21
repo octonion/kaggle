@@ -28,7 +28,7 @@ left outer join march_madness.m_factors o
   on (o.parameter,o.level)=('o_conf',mtc.conf_abbrev)
 left outer join march_madness.m_factors d
   on (d.parameter,d.level)=('d_conf',mtc.conf_abbrev)
-where msf.season in (2023)
+where msf.season in (2024)
 order by str desc);
 
 select
@@ -61,6 +61,6 @@ order by season asc,str desc;
 
 select * from r
 where conf is null
-and season=2023;
+and season=2024;
 
 commit;

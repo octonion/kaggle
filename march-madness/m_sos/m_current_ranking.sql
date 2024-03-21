@@ -33,7 +33,7 @@ join march_madness.m_factors o
   on (o.parameter,o.level::text)=('o_conf',mtc.conf_abbrev)
 join march_madness.m_factors d
   on (d.parameter,d.level::text)=('d_conf',mtc.conf_abbrev)
-where sf.season in (2023)
+where sf.season in (2024)
 order by (sf.strength*o.exp_factor/d.exp_factor) desc);
 
 select
